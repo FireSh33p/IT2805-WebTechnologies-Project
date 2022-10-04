@@ -1,4 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 960px;
+}
+h1{
+    color: brown;
 }
