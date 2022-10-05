@@ -34,3 +34,9 @@ div{
     left: 30px;
     top: -15px;
 }
+
+img{
+    position:absolute;
+    width: 50%;
+    text-align: center;
+}
