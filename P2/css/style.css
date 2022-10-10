@@ -11,7 +11,7 @@ section{
     border: solid;
     border-style: groove;
     margin-bottom: 15px;
-    padding-left: 15px;
+    padding: 0px 15px 15px 15px;
 }
 p{
     font-size: 20;
@@ -22,7 +22,7 @@ h2{
 h1{
     font-size: 40;
 }
-div{
+#footer{
     position: relative;
 }
 #btblogo{
@@ -33,4 +33,9 @@ div{
     position: absolute;
     left: 30px;
     top: -15px;
+}
+.bilde{
+    display: block;
+    width: 100%;
+    margin: auto;
 }
