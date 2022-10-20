@@ -9,74 +9,50 @@
 
 
     <style>
-        body{
-            
-        }
-         .navbar{
-            overflow:hidden;
-            position: relative;
-            background-color: #634d8d;
-        }
-        #logo{
-            float:none;
-            position:absolute;
-            width:50px;
-            top: 50%;
-            left:50%;
-        }
-       
-        .navbar txt{
-            float:left;
-            color:white;
-            text-align: center;
-            padding: 20 px 20 px;
-            font-size: 1.25vw; /*Kom tilbake til dette!*/
-        }
-        .navbar txt:hover{
-            background-color:#9c89be;
-            color:white;
-        }
-        .navbar txt.active {
-            background-color: #04AA6D;  /*Endre denne*/
-            color: white;
-        }
-        .nav_center a{
-            float:none;
-            position: absolute;
-            top: 50%;
-            left:50%;
-           /* transform: translate(-50%, -50%)*/
-        }
-        .nav_right{
-            float:right;
-        }
-    
-
-
-
+       .nav_center{
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-image: url("BadCom_logo.png");
+        background-size: 50px;
+    }
+        
     </style>
 
     </head>
     <body>
-<!--navbar div-->
-<div class="navbar">
-<!--Sentrert navbar logo-->
-<div class="nav_center">
-    <img id="logo" src="BadCom_logo.png">
-</div>
-
+<!--navbar-->
+<nav class="nav">
+<ul>
 <!--Venstre navn linker-->
+<li>
 <a href="#">Info</a>
-<a href="#">Verv</a>
+</li>
+
+<li>
+<a href="#">Verv</a>    
+</li>
+
+<!--Sentrert navbar logo-->
+<li>
+<div class="nav_center"></div>   
+</li>
 
 <!--Høyre  linker-->
-<div class="nav_right">
-    <a href="#">Challenges</a>
-    <a href="#">Kontakt oss</a>
-</div>
+<li>
+<a href="#">Challenges</a>    
+</li>
 
-</div>
-<script>
-</script>
+<li>
+<a href="#">Kontakt oss</a>    
+</li>
+
+</ul>
+</nav>
+
+
+
+
+
     </body>
 </html>
