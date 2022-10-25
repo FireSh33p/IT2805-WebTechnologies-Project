@@ -19,23 +19,23 @@
         text-align: center;
         left:50%;
        }
-    .nav a{
+    /* .nav a{
         color:white;
-        text-decoration: none;  /*samme som enhet*/
+        text-decoration: none;  /*samme som enhet
+    }*/
 
-    }
-
-     .nav_enhet{
+        .nav_enhet{
         display: block;
         border-right: 1px solid #9e8ebb; /*nav a og nav_enhet er det samme*/
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
         }
 
      .nav_enhet:hover{
         background-color: #9e8ebb;
         }
 
-     .nav_logo_mobil{
+        .nav_logo_mobil{
         float:left;
         display: block;
         height: 60px;
@@ -46,7 +46,7 @@
         cursor:pointer;
         }
         
-     .nav_ikon{
+        .nav_ikon{
             padding:20px 12px;
             position: relative;
             float: right; 
@@ -55,7 +55,7 @@
             border-radius: 10px;
         }
 
-     .span_nav_ikon{
+        .span_nav_ikon{
           background: #333;
           display: block;
           height:2px;
@@ -64,7 +64,7 @@
           transition: background .2s ease-out;
         }
 
-     .span_nav_ikon:before{
+        .span_nav_ikon:before{
             background: #333;
             content:"";
             display: block;
@@ -74,7 +74,7 @@
             transition: all 2.s ease-out;
             top:5px;
         }
-     .span_nav_ikon:after{
+        .span_nav_ikon:after{
             background: #333;
             content:"";
             display: block;
@@ -91,9 +91,17 @@
             max-height: 240px;
             max-width: 50%;
         }
+        /* .nav{
+            background-color: antiquewhite;
+            position: sticky;
+            display: flex;
+            z-index: 1;
+            
+        } */
+        
 
 
-    @media screen and (min-width: 992px){  
+    @media screen and (min-width: 1105px){  
     .nav{
         position: sticky;
         top: 0px;
@@ -106,31 +114,31 @@
     .nav_ikon{
         display:none;
     }
-    .nav_logo_mobil{
+        .nav_logo_mobil{
         display:none;
-    }
+        }
 
-    .nav a{
+        .nav a{
         color:white;
         text-decoration: none; /*kan nok sette denne inn i -\.nav_enhet*/
-        transform: scale(1.5);
-    }
-    .nav_enhet{
+        /* transform: scale(1.5); */
+        }
+        .nav_enhet{
         display: inline-block;
         margin: 20px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: normal;
-        background-color: #634d8d;
-        padding: 10px;
+        background-color:#634d8d;
+        padding: 5px;
         border-radius: 15px;
         width: 125px;
          }
-     .nav_enhet:hover{
+        .nav_enhet:hover{
         background-color: #9e8ebb;
         transform: scale(1.25);
         }
     
-    .nav_enhet_senter:hover{
+        .nav_enhet_senter:hover{
         transform: scale(1.25);
         }
 
@@ -158,11 +166,9 @@
     </head>
 <body>
 
-
 <div class="nav_logo_mobil"></div>
 <input class="nav_knapp" type="checkbox" id="nav_knapp" />
 <label class="nav_ikon" for="nav_knapp"><span class="span_nav_ikon"></span></label>
-
 <!--navbar-->
 <nav class="nav">
 <ul class="nav_liste">
@@ -191,9 +197,5 @@
 
 </ul>
 </nav>
-
-
-
-
     </body>
 </html>
