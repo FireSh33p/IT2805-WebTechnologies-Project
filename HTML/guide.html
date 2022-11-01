@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="nb">
 <head>
-<link rel="stylesheet" type ="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type ="text/css" href="../CSS/style.css">
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: x-large;
+        }
+        h1{
+            color: brown;
+        }
+        .button_links{
+            border: 2px solid black;
+            width: 20%;
+            height: 10%;
+            margin: 5px;
+        }
+
+        .container_element{
+            position: absolute;
+            
+            padding: 10px;
+            height: 100px
+        }
+        #guide_main_container{
+            margin-top: 0;
+            border-radius: 20px;
+            border: 3px solid red;
+            background-color: rgba(128, 0, 128, 0.182);
+            position: absolute;
+            text-align: left;
+            height: 95%;
+            width: 75%;
+            right: 5px;
+            top: 5px;
+        }
+
+    </style>
+
 
 </head>
 <body>
+
+<div class ="side_buttons">
+    <div class="button_links" onclick="openElement(event, 'steg1')">steg1</div>
+    <div class="button_links" onclick="openElement(event, 'steg2')">steg2</div>
+    <div class="button_links" onclick="openElement(event, 'steg3')">steg3</div>
+    <div class="button_links" onclick="openElement(event, 'steg4')">steg4</div>
+    <div class="button_links" onclick="openElement(event, 'steg5')">steg5</div>
+    <div class="button_links" onclick="openElement(event, 'steg6')">steg6</div>
+    <div class="button_links" onclick="openElement(event, 'steg7')">steg7</div>
+    <div class="button_links" onclick="openElement(event, 'steg8')">steg8</div>
+    <div class="button_links" onclick="openElement(event, 'steg9')">steg9</div>
+</div>
 <div id="guide_main_container">
-    <div class= "container_element">
+    
+    <div id = "steg1" class= "container_element">
         <h2>1.Skaff laget!</h2>
         Bli med en gjeng nye 1.klassinger fra samme linjeforening.
         På Infomøtet finner du folk som ønsker å delta i badekarpadlinga,
@@ -17,7 +66,7 @@
         sender får meldinger fra BadCom styret, og meld fra om at de vil delta.
     </div>
 
-    <div class= "container_element">
+    <div id = "steg2"class= "container_element">
         <h2>2. Skaff et badekar!</h2>
         Du hadde blitt overasket over hvor enkelt man kan få tak i ett badekar i Trondheim.
         Under padlinga er det 2 hovedkategorier: ShowKar og FartsKar. Det er vanlig å ha et
@@ -33,7 +82,7 @@
         deres til BadCom styret, hehehe.
     </div>
 
-    <div>
+    <div id = "steg3" class= "container_element">
         <h2>3. Skaff et tema!</h2>
 
         Nå kan det være lurt å samarbeide med laget ditt for å finne et tema. Dette kan dere bruke til å 
@@ -42,7 +91,9 @@
         komma med noe helt nytt på egen hand! Husk at vinneren av best gjennomført tema blir tildelt 
         prisen «Den Gyldne And»!
     </div>
-    <div>
+
+
+    <div id=steg4 class= "container_element">
         <h2>4. Saboter, smisk og gjør challenges!</h2>
 
         Nå er de klare for å sabortera andre sine Showkar-badekar! Det går an å lokalisere andre lag 
@@ -60,6 +111,7 @@
         Laget som sitter tilbake med mest smiskepoeng til slutt, vinner den nydelige prisen «Den Gyldne Smørekanne»!
 
     </div>
+    <div id=steg5 class= "container_element">
         <h2>5. Bygg en flåte!</h2>
 
         Det blir lagd et offisielt facebookarrangement hvor alle bygger flåten sin sammen.
@@ -67,7 +119,8 @@
         Paller og andre materiale kan man evt. kjøpe/få hos butikker og verktøy kan lånes. Minne å spørre linjeforeninga 
         om dem har flyteelement/årer fra tidligere år! Det blir utgitt et eget skriver om hvordan bygd en flåte, som går 
         i mer detalj.
-    <div>
+    </div>
+    <div id=steg6 class= "container_element">
         <h2>6. Delta!!</h2>
 
         «Det viktigste er å delta!» - Linjeforeninga Delta.
@@ -75,13 +128,13 @@
         Skal dere ta hjem prisen i FartsKar og vinne «Det Gyldne Kar»?Eller satser dere på å knuse motstandene i både 
         engasjement og innsats i ShowKar for å få tak i «Den Gyldne Krok»?
     </div>
-    <div>
+    <div id=steg7 class= "container_element">
         <h2>7. Fest!!</h2>
 
         Etter padlinga arrangeres det en fest hvor de ulike vinnerne blir annonsert! Husk å ha samlet nok poeng frem til 
         da! Eller kanskje dere ønsker å lage et show for den ettertraktede showprisen?
     </div>
-    <div>
+    <div id=steg8 class= "container_element">
         <h2> 8. Lag en sabotasjevideo!</h2>
 
         Etter at alt er ferdig, er det populært å lage en tematisk video med alle sabotasjene som en har gjort. 
@@ -89,13 +142,13 @@
         Vi i styret elsker å se slike videoer, og kanskje de kan bli vist som promomateriale til neste år!
 
     </div>
-    <div>
+    <div id=steg9 class= "container_element">
         <h2>9. Finner ut hva som kan bli subsidiert!</h2>
 
         Linjeforeninga din har kanskje en liten sum de kan utgi for å dekke ulike kostnader som fremkommer 
         gjennom hele badekarpadlingsperioden. Spør linjeforeningssjefen eller økonomiansvarleg!
     </div>
-    <div>
+    <div id=steg10 class= "container_element">
         <h2>10. Søk til BadCom styret!</h2>
         
         Ønsker du å delta i organiseringen av badekarpadlinga til neste år? Har du lyst til å lure nye 1. klassingar 
@@ -105,96 +158,6 @@
     </div>
 </div>
 
-
-
-
-
-
-
-<!-- 1.Skaff laget!
-Bli med en gjeng nye 1.klassinger fra samme linjeforening.
-På Infomøtet finner du folk som ønsker å delta i badekarpadlinga,
-og det er en flott mulighet å bli kjent med andre fra linjeforeningen din.
-Spør rundt, kaskje det allerede er en gruppe du kan bli med i. Etter at du
-har funnet gruppen din, kan det være lurt å lage ei facebook/messengergruppe
-for å koordinere og planlegge fremover! Velg deretter en kontakperson som
-sender får meldinger fra BadCom styret, og meld fra om at de vil delta.
-
-2. Skaff et badekar!
-Du hadde blitt overasket over hvor enkelt man kan få tak i ett badekar i Trondheim.
-Under padlinga er det 2 hovedkategorier: ShowKar og FartsKar. Det er vanlig å ha et
-badekar til hver kategori man ønsker å delta i."
-I ShowKar pynter de et badekar som skal paddles over Nidelva.
-Dette er den mest populære kategorien, og det er med ShowKar-badekaret et man
-skal sabotere for andre eller bli sabotert selv.
-FartsKar er ett arrangement før ShowKar, der grupper konkurrerer om å padle fram 
-og tilbake over Nidelva kjappest mulig. Det er ulike priser for begge arrangementene!
-Gjøm deretter ShowKaret! Det må bli plassert ute, tilgjengelig for alle (ikke bak ein lås)
-og ikke for langt utenfor Trondheim! Her kan det være lurt å skjekke regelverket,
-hvor det er et bilde av dei presise grensene! Husk å sende inn koordinatene til badekaret
-deres til BadCom styret, hehehe.
-
-3. Skaff et tema!
-
-Nå kan det være lurt å samarbeide med laget ditt for å finne et tema. Dette kan dere bruke til å 
-sette en unik tvist på sabotasjene deres, og det skiller dere ut fra de andre gruppene! Her kan 
-det være lurt å spørre rundt hvilket tidligere padlere har hatt som temaene/insiprasjon, eller 
-komma med noe helt nytt på egen hand! Husk at vinneren av best gjennomført tema blir tildelt 
-prisen «Den Gyldne And»!
-
-4. Saboter, smisk og gjør challenges!
-
-Nå er de klare for å sabortera andre sine Showkar-badekar! Det går an å lokalisere andre lag 
-sine badekar selve, men ryktene sier at 'smøring' på BadCom kontoret er temmelig effektivt for 
-å få noen pynte koordinater. All sabotasje er lov så lenge det fortsatt ser ut som et badekar 
-når jobben er gjort! Derfor prøv å unngå å direkte ødelegge andre sine badekar! På nettstedet 
-finner dere en liste over ulike challenges dere kan gjøre for å få poeng! Og listen over hvor 
-mange poeng hver linjeforening har, finner en også der. For hvor challenge en gjør kan man få 
-litt ekstra smiskepoeng for høyt gjennomføringsnivå. Det er også sagt at smisking på kontoret 
-kan hjelpe dersom man ønsker litt ekstra poeng. (Jeg vil ha kaken!)
-Hær er mazemap til kontoret vårt!
-Kontortidene finner du på forsiden under «Spørsmål?»
-Minner å filme bevis av gjennomførte challenges og sabotasjer, slik at det kan verifiseres 
-av oss i styret! Kanskje det blir nydelig materialer til å lage en spenstig sabotasjefilm av?
-Laget som sitter tilbake med mest smiskepoeng til slutt, vinner den nydelige prisen «Den Gyldne Smørekanne»!
-
-
-5. Bygg en flåte!
-
-Det blir lagd et offisielt facebookarrangement hvor alle bygger flåten sin sammen.
-Dersom badekaret er helt herpa/ubrukelig er det lov å bruke et annet, men det ødelegger litt av sjarmen.
-Paller og andre materiale kan man evt. kjøpe/få hos butikker og verktøy kan lånes. Minne å spørre linjeforeninga 
-om dem har flyteelement/årer fra tidligere år! Det blir utgitt et eget skriver om hvordan bygd en flåte, som går 
-i mer detalj.
-
-6. Delta!!
-
-«Det viktigste er å delta!» - Linjeforeninga Delta.
-Bli med på selve padledagen! Selv om du ikke padler blir det et skikkelig show, vi håper å se så mange som mulig der!
-Skal dere ta hjem prisen i FartsKar og vinne «Det Gyldne Kar»?Eller satser dere på å knuse motstandene i både 
-engasjement og innsats i ShowKar for å få tak i «Den Gyldne Krok»?
-
-7. Fest!!
-
-Etter padlinga arrangeres det en fest hvor de ulike vinnerne blir annonsert! Husk å ha samlet nok poeng frem til 
-da! Eller kanskje dere ønsker å lage et show for den ettertraktede showprisen?
-
-8. Lag en sabotasjevideo!
-
-Etter at alt er ferdig, er det populært å lage en tematisk video med alle sabotasjene som en har gjort. 
-Sabotasjevideoen står svært sentralt i hvem som vinner prisen «Den Gyldne Propp» for beste sabotasje!
-Vi i styret elsker å se slike videoer, og kanskje de kan bli vist som promomateriale til neste år!
-
-9. Finner ut hva som kan bli subsidiert!
-
-Linjeforeninga din har kanskje en liten sum de kan utgi for å dekke ulike kostnader som fremkommer 
-gjennom hele badekarpadlingsperioden. Spør linjeforeningssjefen eller økonomiansvarleg!
-
-10. Søk til BadCom styret!
-
-Ønsker du å delta i organiseringen av badekarpadlinga til neste år? Har du lyst til å lure nye 1. klassingar 
-til å gi deg kake på kontoret for noen virtuelle poeng? Har du lyst til å endre siden over til bokmål igjen, 
-selv om jeg (og mamma) brukte lang tid på å lage dette?
-Søk til BadCom!! -->
+<script src="../Javascript/guide.js"> </script>
 </body>
 </html>
