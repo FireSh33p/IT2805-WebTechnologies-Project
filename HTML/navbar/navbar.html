@@ -1,201 +1,35 @@
-<!DOCTYPE html>
-<html>
-    <head>
+<head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./navbar.css" >
 
-
-    <style>
-
-    .nav_liste {
-        clear:both;
-        max-height: 0;
-        transition: max-height .2s ease-in-out;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        overflow: hidden;
-        background-color:#634d8d;
-        text-align: center;
-        left:50%;
-       }
-    /* .nav a{
-        color:white;
-        text-decoration: none;  /*samme som enhet
-    }*/
-
-        .nav_enhet{
-        display: block;
-        border-right: 1px solid #9e8ebb; /*nav a og nav_enhet er det samme*/
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        
-        }
-
-     .nav_enhet:hover{
-        background-color: #9e8ebb;
-        }
-
-        .nav_logo_mobil{
-        float:left;
-        display: block;
-        height: 60px;
-        width: 60px;
-        background-image: url("BadCom_logo.png");
-        background-size: 60px;
-        background-repeat: no-repeat;
-        cursor:pointer;
-        }
-        
-        .nav_ikon{
-            padding:20px 12px;
-            position: relative;
-            float: right; 
-            cursor:pointer;
-            background: #9e8ebb;
-            border-radius: 10px;
-        }
-
-        .span_nav_ikon{
-          background: #333;
-          display: block;
-          height:2px;
-          width:20px;
-          position: relative;
-          transition: background .2s ease-out;
-        }
-
-        .span_nav_ikon:before{
-            background: #333;
-            content:"";
-            display: block;
-            height:100%;
-            width: 100%;
-            position:absolute;
-            transition: all 2.s ease-out;
-            top:5px;
-        }
-        .span_nav_ikon:after{
-            background: #333;
-            content:"";
-            display: block;
-            height:100%;
-            width: 100%;
-            position:absolute;
-            transition: all 2.s ease-out;
-            top:-5px;
-        }
-        .nav_knapp{
-            display: none;
-        }
-        .nav_knapp:checked ~ .nav .nav_liste{
-            max-height: 240px;
-            max-width: 50%;
-        }
-        /* .nav{
-            background-color: antiquewhite;
-            position: sticky;
-            display: flex;
-            z-index: 1;
-            
-        } */
-        
-
-
-    @media screen and (min-width: 1105px){  
-    .nav{
-        position: sticky;
-        top: 0px;
-        text-align: center;
-        z-index: 2; /*Endre?*/
-        display: flex;
-        justify-content: center;
-        color:white;
-    }
-    .nav_ikon{
-        display:none;
-    }
-        .nav_logo_mobil{
-        display:none;
-        }
-
-        .nav a{
-        color:white;
-        text-decoration: none; /*kan nok sette denne inn i -\.nav_enhet*/
-        /* transform: scale(1.5); */
-        }
-        .nav_enhet{
-        display: inline-block;
-        margin: 20px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: normal;
-        background-color:#634d8d;
-        padding: 5px;
-        border-radius: 15px;
-        width: 125px;
-         }
-        .nav_enhet:hover{
-        background-color: #9e8ebb;
-        transform: scale(1.25);
-        }
-    
-        .nav_enhet_senter:hover{
-        transform: scale(1.25);
-        }
-
-       .nav_logo{
-        display: block;
-        height: 125px;
-        width: 125px;
-        background-image: url("BadCom_logo.png");
-        background-size: 125px;
-        margin:10px;
-        }
-
-        .nav_liste{
-        max-height: 240px;
-        display: flex;
-        justify-content: space-between;
-        width: 70vw;
-        align-items: center;
-        background: none;
-        }
-
-    } 
-    </style>
-
-    </head>
-<body>
-
-<div class="nav_logo_mobil"></div>
-<input class="nav_knapp" type="checkbox" id="nav_knapp" />
-<label class="nav_ikon" for="nav_knapp"><span class="span_nav_ikon"></span></label>
-<!--navbar-->
-<nav class="nav">
-<ul class="nav_liste">
+<!--navbar START-->
+<a class="mobil_logo" href="#" ></a>
+<input class="nav_check" type="checkbox" id="nav_check" />
+<label class="nav_ikon" for="nav_check"></label>
+<nav>
+<ul>
 <!--Venstre navn linker-->
-<li class="nav_enhet">
+<li>
 <a href="#">INFO</a>
 </li>
-
-<li class="nav_enhet">
-<a href="#">VERV</a>    
+<li>
+<a href="#">VERV</a>
 </li>
-
 <!--Sentrert navbar logo-->
-<li class="nav_enhet_senter">
-<div class="nav_logo"></div>   
+<li class="nav_senter">
+<div class="nav_logo"></div>
 </li>
-
 <!--Høyre  linker-->
-<li class="nav_enhet">
-<a href="#">CHALLENGES</a>    
+<li>
+<a href="#">CHALLENGES</a>   
 </li>
-
-<li class="nav_enhet">
-<a href="#">KONTAKT OSS</a>    
+<li>
+<a href="#">KONTAKT OSS</a>
 </li>
-
 </ul>
 </nav>
-    </body>
-</html>
+<!--NAVBAR SLUTT-->
+</head>
