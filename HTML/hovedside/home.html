@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <style>
         body{
@@ -24,60 +25,86 @@
         }
         .home-main .frame1{
             background-color: antiquewhite;
-            background-size: auto;
-            background-image: url('DSC08725.jpg');
-            color:#333;
+            background-image: url("bakgrunn3-min.png");
+            background-size: cover;
+            background-repeat: no-repeat;
 
         }
         .home-main .frame2{
-            background-color: #333;
-            background-size: auto;
-            background-image: url('DSC08725.jpg');
-            color: antiquewhite;
+            background-color: antiquewhite;
+            background-image: url("bakgrunn1-min.png");
+            background-size: cover;
+            background-repeat: no-repeat;
 
         }
         .home-main .frame3{
             background-color: antiquewhite;
-            color:#333;
+            background-image: url("bakgrunn2-min.png");
+            background-size: cover;
+            background-repeat: no-repeat;
 
         }
         .home-main .frame4{
-            background-color: #333;
-            color:antiquewhite;            
+            background-color: antiquewhite;
+            background-image: url("bakgrunn4-min.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+                       
         }
         .main-content{
+            display: flex;
+            /* justify-content: center; */
+       
             width: 75vw;
             height: 75vh;
-            background-color: #FA8072;
             padding: 10px;
+            background: rgba(255, 255, 255, 0.5);
+
+            /* background-image: radial-gradient(255,255,255,0.5); */
         }
+    
+
         .main-content h1{
             text-align: center;
-        }
+            font-size: xx-large;
+            font-weight: bolder;
+            text-align: center;
+            
+        } 
     </style>
 </head>
 <body>
-<article class="home-main">
-    <section class="frame1">
-        <section class="main-content">
+<div class="home-main">
+    
+    <div class="frame1">
+        <div class="main-content">
             <h1>Info</h1>
-        </section>
-    </section>
-    <section class="frame2">
-        <section class="main-content">
-            <h1>Verv</h1>
-        </section>
-    </section>
-    <section class="frame3">
-        <section class="main-content">
-            <h1>Challanges</h1>
-        </section>
-    </section>
-    <section class="frame4">
-        <section class="main-content">
-            <h1>Kontakt oss</h1>
-        </section>
-    </section>
+            
+        </div>
+    </div>
+
+    <div class="frame2">
+            <div class="main-content">
+                <h1>Info</h1>
+                
+               
+                
+            </div>
+    </div>
+    
+
+    <div class="frame3">
+        <div class="main-content"><h1>Info</h1>
+            
+        </div>
+    </div>
+
+    <div class="frame4">
+            <div class="main-content"><h1>Info</h1>
+                
+            </div>
+        </div>
 </article>
 
 </body>
