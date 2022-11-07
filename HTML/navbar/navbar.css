@@ -1,10 +1,13 @@
 nav{
+    position: sticky;
     z-index: 99;
     display: none;
     justify-content: right;
     }
     nav ul{
     list-style-type: none;
+    padding: 0;
+    margin: 0;
     }
     nav ul li a{
     text-decoration: none;
