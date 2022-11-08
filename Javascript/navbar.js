@@ -2,7 +2,7 @@
 class Navbar extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
-/* ##NAVBAR-CSS-START## */
+
       <style>
       .nav_ikon{
         position:absolute;
@@ -132,7 +132,7 @@ class Navbar extends HTMLElement {
         } 
     }
       </style>
-/* ##NAVBAR-CSS-START## */
+
 
 <!--##HTML-NAVBAR-START##-->
 
