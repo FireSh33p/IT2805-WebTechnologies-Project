@@ -143,21 +143,21 @@ class Navbar extends HTMLElement {
              <ul>
              <!--Venstre navn linker-->
              <li>
-             <a href="https://www.nrk.no/">INFO</a>
+             <a href="../HTML/info.html">INFO</a>
              </li>
              <li>
-             <a href="#">VERV</a>
+             <a href="../HTML/Verv.html">VERV</a>
              </li>
              <!--Sentrert navbar logo-->
              <li>
-                     <a href="#"  class="nav_senter" ></a>
+                     <a href="hovedside.html"  class="nav_senter" ></a>
              </li>
              <!--Høyre  linker-->
              <li class="nav_challenges">
-             <a href="#">CHALLENGES</a>   
+             <a href="../HTML/challenges.html">CHALLENGES</a>   
              </li>
              <li class="nav_kontakOss">
-             <a href="#">KONTAKT OSS</a>
+             <a href="../HTML/kontaktOss.html">KONTAKT OSS</a>
              </li>
              </ul>
              </nav>

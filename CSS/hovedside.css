@@ -16,28 +16,28 @@
 }
 .home-main .frame1{
     background-color: antiquewhite;
-    background-image: url("bakgrunn3-min.png");
+    background-image: url("../IMG/bakgrunn3-min.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .home-main .frame2{
     background-color: antiquewhite;
-    background-image: url("bakgrunn1-min.png");
+    background-image: url("../IMG/bakgrunn1-min.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .home-main .frame3{
     background-color: antiquewhite;
-    background-image: url("bakgrunn2-min.png");
+    background-image: url("../IMG/bakgrunn2-min.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .home-main .frame4{
     background-color: antiquewhite;
-    background-image: url("bakgrunn4-min.jpg");
+    background-image: url("../IMG/bakgrunn4-min.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
