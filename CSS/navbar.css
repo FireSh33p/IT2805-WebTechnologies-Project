@@ -10,7 +10,9 @@
     border-radius: 5px;
 
     background-color: #634d8d;
-    background-image: url("burgerIkon2.svg");
+
+    background-image: url("../IMG/burgerIkon2.svg");
+
     background-position: center;
     background-repeat: no-repeat;
     
@@ -24,7 +26,7 @@
     height: 70px;
     width: 70px;
 
-    background-image: url("BadCom-logo-100px.png");
+    background-image: url("../IMG/BadCom-logo-100px.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +81,7 @@ nav ul li a{
     }
 
 .nav_check:checked + .nav_ikon{
-        background-image: url("kryss2.svg");
+        background-image: url("../IMG/kryss2.svg");
 }
 nav ul li a:hover{
     transform: scale(1.1);
@@ -111,7 +113,6 @@ nav ul li a:hover{
     }
 
     .nav_senter{
-    
         margin: 10px;
         font-family: 'Courier New', Courier, monospace;
         padding: 10px;
@@ -119,7 +120,7 @@ nav ul li a:hover{
         display: block;
         height: 125px;
         width: 125px;
-        background-image: url("BadCom-logo-360px.png");
+        background-image: url("../IMG/BadCom-logo-360px.png");
         background-size: 125px;
         background-position: center;
         background-repeat: no-repeat;
