@@ -12,25 +12,22 @@
         body{
                 margin:0;
                 padding:0;
+                overflow-x: hidden;
+                
                 
         }
-        .wraper{
-                top:0;
-                z-index: 2;
-                position: absolute;
-                width: 100%;
-                height: fit-content;
-                background: #333;
-        }
+
 
         .frame1{
+                margin:0;
+                border:0;
                 width: 100vw;
                 height: 100vh;
                 background-color: red;
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                position: absolute;
                
                 
         }
@@ -46,6 +43,9 @@
                 background-color:green;
 
         }
+        p{
+                margin:0;
+        }
         </style>
         <script src="../Javascript/navbar.js" async defer s></script>
         <nav-bar></nav-bar>
@@ -53,7 +53,7 @@
 
     </head>
     <body>
-        <div class="wraper">
+        <!-- <div class="wraper"> -->
             
                                
                                        
@@ -63,7 +63,7 @@
             </div>
             <div class="frame2"></div>
             <div class="frame3"></div>
-     </div>
+     <!-- </div> -->
        
     </body>
 </html>
