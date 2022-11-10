@@ -24,7 +24,7 @@ class Navbar extends HTMLElement {
         top:0;
         right: 0;
     
-        margin: 15px 30px;
+        margin: 20px 30px;
 
         height: 50px;
         width: 50px;
@@ -44,7 +44,7 @@ class Navbar extends HTMLElement {
         top:0;
         left:0;
     
-        margin: 11px 0px 0px 10px;
+        margin: 11px 0px 0px 15px;
         height: 75px;
         width: 75px;
     
