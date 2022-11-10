@@ -15,7 +15,7 @@ class Navbar extends HTMLElement {
         justify-content: space-between;
         align-items: center;
         z-index: 99;
-        background-color:#634d8d;
+        
         
         }
     
@@ -24,9 +24,11 @@ class Navbar extends HTMLElement {
         top:0;
         right: 0;
     
-        margin: 15px;
+        margin: 15px 30px;
+
         height: 50px;
         width: 50px;
+
         border-radius: 5px;
     
         background-color: #634d8d;
@@ -43,8 +45,8 @@ class Navbar extends HTMLElement {
         left:0;
     
         margin: 11px 0px 0px 10px;
-        height: 70px;
-        width: 70px;
+        height: 75px;
+        width: 75px;
     
         background-image: url("../IMG/BadCom-logo-100px.png");
         background-position: center;
