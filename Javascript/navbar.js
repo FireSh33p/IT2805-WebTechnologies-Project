@@ -15,6 +15,7 @@ class Navbar extends HTMLElement {
         justify-content: space-between;
         align-items: center;
         z-index: 99;
+        background-color:#634d8d;
         
         }
     
@@ -64,6 +65,9 @@ class Navbar extends HTMLElement {
         
         margin: 25px;    
         padding: 20px;
+
+        border-style: solid;
+        border-color: #feee05;
         border-radius: 35px;
     
         background-color: #634d8d;
@@ -86,7 +90,8 @@ class Navbar extends HTMLElement {
             position: absolute;
             display: block;
             margin-top: 100px;
-            width: 50vw;
+            width: 75vw;
+            
         }
     
     .nav_check:checked + .nav_ikon{
@@ -96,7 +101,7 @@ class Navbar extends HTMLElement {
         transform: scale(1.1);
     }
         
-    @media screen and (min-width: 850px) {
+    @media screen and (min-width: 1000px) {
         .nav_ikon{
                 display: none;
         }
@@ -117,9 +122,11 @@ class Navbar extends HTMLElement {
         }
     
         nav ul li a{
-            margin: 20px;
+            margin: 1vw;
             padding: 10px;
             border-radius: 25px;
+            border-style: solid;
+            border-color: #feee05;
         }
     
         .nav_senter{
@@ -133,6 +140,8 @@ class Navbar extends HTMLElement {
             background-size: 125px;
             background-position: center;
             background-repeat: no-repeat;
+            border-style: none;
+            border-color: none;
         } 
     
     }
@@ -141,7 +150,7 @@ class Navbar extends HTMLElement {
 
       <!--##HTML-NAVBAR-START##-->
       <nav>
-              <a class="mobil_logo" href="#" ></a>
+              <a class="mobil_logo" href="../HTML/hovedside.html" ></a>
               <input class="nav_check" type="checkbox" id="nav_check" />
               <label class="nav_ikon" for="nav_check"></label>
 
@@ -149,21 +158,21 @@ class Navbar extends HTMLElement {
              <ul>
              <!--Venstre navn linker-->
              <li>
-             <a href="https://www.nrk.no/">INFO</a>
+             <a href="../HTML/info.html">INFO</a>
              </li>
              <li>
-             <a href="#">VERV</a>
+             <a href="../HTML/Verv.html">VERV</a>
              </li>
              <!--Sentrert navbar logo-->
              <li>
-                     <a href="#"  class="nav_senter" ></a>
+                     <a href="../HTML/hovedside.html"  class="nav_senter" ></a>
              </li>
              <!--Høyre  linker-->
              <li class="nav_challenges">
-             <a href="#">CHALLENGES</a>   
+             <a href="../HTML/challenges.html">CHALLENGES</a>   
              </li>
              <li class="nav_kontakOss">
-             <a href="#">KONTAKT OSS</a>
+             <a href="../HTML/kontakt_oss.html">KONTAKT OSS</a>
              </li>
              </ul>
       
