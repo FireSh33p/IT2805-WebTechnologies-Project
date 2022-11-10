@@ -124,7 +124,6 @@ class Navbar extends HTMLElement {
     
         .nav_senter{
             margin: 10px;
-            font-family: 'Courier New', Courier, monospace;
             padding: 10px;
             background: none;
             display: block;
@@ -177,7 +176,7 @@ class Navbar extends HTMLElement {
   }
   customElements.define('nav-bar', Navbar);
   window.addEventListener("resize", function() {
-    if (window.matchMedia("(min-width: 850px)").matches) {
+    if (window.matchMedia("(min-width: 1000px)").matches) {
     document.getElementById("nav_check").checked = false;
     } 
     })
