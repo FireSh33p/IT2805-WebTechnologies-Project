@@ -91,7 +91,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fff;
+    border: 2px solid white;
     background-color: transparent;
     border-radius: 2px;
     
@@ -146,11 +146,11 @@
 
     @keyframes swipe-bath{
     0%, 10% {top:-47px}
-    60%, 100% {top:55px}
+    80%, 100% {top:55px}
         }
     @keyframes swipe-scroll{
         0%, 10% {top:-20px}
-        60%, 100% {top:55px}
+        80%, 100% {top:55px}
         } 
 
  
@@ -188,12 +188,12 @@
             @keyframes swipe-bath{
                 0%, 20% {top:55px}
           
-                60%, 100% {top:-45px}
+                70%, 100% {top:-45px}
                     }
             @keyframes swipe-scroll{
-                0%, 20% {top:-45px}
+                0%, 10% {top:-45px}
               
-                60%, 100% {top:55px}
+                80%, 100% {top:55px}
                     }
             .scroll-fig{
                 position: absolute;
@@ -209,7 +209,7 @@
                
             
                 animation-name: swipe-scroll;
-                animation-duration: 6s;
+                animation-duration: 4s;
                 animation-timing-function:ease;
                 animation-iteration-count: infinite;
                 animation-direction:reverse; /*eller reverse*/
@@ -225,7 +225,7 @@
                 display: block;
           
                 animation-name: swipe-bath;
-                animation-duration: 6s;
+                animation-duration: 4s;
                 animation-timing-function:ease;
                 animation-iteration-count: infinite;
                 animation-direction:reverse; /*eller reverse*/
