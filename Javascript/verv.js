@@ -13,5 +13,6 @@ function cardClick(event){
     card_category.classList.toggle('card_category_closed');
     card_face2.classList.toggle('face2_open');
     card_face2.classList.toggle('face2_closed');
-    card_background.style.filter = "brightness(0.5) saturate(0) contrast(1.2) blur(20px)";
+    card_background.classList.toggle('card_background_open');
+    card_background.classList.toggle('card_background_closed');
 }
