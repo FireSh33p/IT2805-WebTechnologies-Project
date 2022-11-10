@@ -68,8 +68,8 @@ class Navbar extends HTMLElement {
         margin: 25px;    
         padding: 20px;
 
-        border-style: solid;
-        border-color: #feee05;
+        
+        border: 2px solid rgba(255, 255, 255, 0.4);
         border-radius: 35px;
     
         background-color: #634d8d;
@@ -127,8 +127,7 @@ class Navbar extends HTMLElement {
             margin: 1vw;
             padding: 10px;
             border-radius: 25px;
-            border-style: solid;
-            border-color: #feee05;
+            border: 2px solid rgba(255, 255, 255, 0.4);
         }
     
         .nav_senter{
