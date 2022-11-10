@@ -96,7 +96,7 @@ class Navbar extends HTMLElement {
         transform: scale(1.1);
     }
         
-    @media screen and (min-width: 850px) {
+    @media screen and (min-width: 1000px) {
         .nav_ikon{
                 display: none;
         }
