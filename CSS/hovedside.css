@@ -73,7 +73,6 @@
 .main-content2{
     font-size: 1.5vw;
 }
-    
 @media screen and (max-width: 1000px) {
     .main-content1{
         font-size: 7vw;
@@ -82,4 +81,14 @@
         font-size: 5vw;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .main-content1{
+        font-size: 7vw;
+    }
+    .main-content2{
+        font-size: 5vw;
+    }
+}
+
 
