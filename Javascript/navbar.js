@@ -117,7 +117,7 @@ class Navbar extends HTMLElement {
         }
     
         nav ul li a{
-            margin: 20px;
+            margin: 1vw;
             padding: 10px;
             border-radius: 25px;
         }

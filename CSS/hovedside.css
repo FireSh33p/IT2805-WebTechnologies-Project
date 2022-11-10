@@ -3,18 +3,23 @@
     background-color: antiquewhite;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-    /* scroll-padding: 40px;  KANSKJE HJELPSOM NÅR MAN SKAL SETTE INN NAVBAR*/
+    overflow-x: hidden;
+    
 }
 .home-main > * {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     scroll-snap-align: center;
     scroll-snap-stop: always;
+    scroll-behavior: auto;
+    
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.home-main .frame1{
+
+/* .home-main .frame1{
     background-color: antiquewhite;
     background-image: url("../IMG/bakgrunn3-min.png");
     background-size: cover;
@@ -34,23 +39,75 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-}
-.home-main .frame4{
+} */
+/* .home-main .frame4{
     background-color: antiquewhite;
     background-image: url("../IMG/bakgrunn4-min.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
                
+} */
+.frame1{
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.frame2{
+    width: 100vw;
+    height: 100vh;
+    background-color:blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.frame3{
+    width: 100vw;
+    height: 100vh;
+    background-color:green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.frame3{
+    width: 100vw;
+    height: 100vh;
+    background-color:yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.frame4{
+    width: 100vw;
+    height: 100vh;
+    background-color:purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .main-content{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
 
     width: 75vw;
     height: 75vh;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.5);
+    
+    background: rgba(255, 255, 255, 1);
 
     /* background-image: radial-gradient(255,255,255,0.5); */
 }
