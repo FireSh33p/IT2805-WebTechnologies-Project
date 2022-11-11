@@ -1,5 +1,3 @@
-console.log("hello world")
-
 container_element = document.getElementsByClassName("container_element");
     for (i = 1; i < container_element.length; i++) {
       container_element[i].style.display = "none";
