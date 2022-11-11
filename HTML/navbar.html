@@ -16,24 +16,18 @@
                 padding:0;
                 overflow-x: hidden;
                 
+                
         }
-        .wraper{
-                top:0;
-                z-index: 2;
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background: #333;
-        }
+
 
         .frame1{
                 margin:0;
-                padding: 0;
                 border:0;
                 width: 100vw;
                 height: 100vh;
                 background-color: red;
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
                
@@ -54,6 +48,9 @@
         p{
                 margin:0;
         }
+        
+
+
 
 
 </style>
@@ -62,6 +59,8 @@
                                         <a class="mobil_logo" href="#" ></a>
                                         <input class="nav_check" type="checkbox" id="nav_check" />
                                         <label class="nav_ikon" for="nav_check"></label>
+
+                                
                                        <ul>
                                        <!--Venstre navn linker-->
                                        <li>
@@ -82,7 +81,17 @@
                                        <a href="#">KONTAKT OSS</a>
                                        </li>
                                        </ul>
+                                
                                        </nav>
+                                       <script>
+                                        window.addEventListener("resize", function() {
+                                                if (window.matchMedia("(min-width: 850px)").matches) {
+                                                document.getElementById("nav_check").checked = false;
+                                                } 
+                                                })
+                                
+                                        </script>
+                                
                           <!--##HTML-NAVBAR-START##-->
 
 
@@ -91,15 +100,20 @@
 
 
 
-                <div class="wraper">
+               <!-- <div class="wraper"> -->
  
                                        
                         <div class="frame1">
-                                <p>SNorre Sæther Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus rem aperiam illum rerum a veniam non possimus natus id debitis pariatur totam quo temporibus, maiores aspernatur ipsa distinctio quisquam ex.</p>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, autem. Culpa repudiandae quod laudantium placeat, impedit maxime quae quam nam possimus esse facere deleniti! Quisquam velit aut illo sapiente sit.</p>
+                                <p>SNorre Sæther Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Accusamus rem aperiam illum rerum a veniam non possimus natus id debit
+                                        is pariatur totam quo temporibus, maiores aspernatur ipsa distinctio quisquam ex.</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, autem. Culpa repudiand
+                                        ae quod laudantium placeat, impedit maxime quae quam nam possimus esse facere 
+                                        deleniti! Quisquam velit aut illo sapiente sit.</p>
                         </div>
                         <div class="frame2"></div>
                         <div class="frame3"></div>
-                 </div>
+                 <!-- </div> -->
+    
         </body>
 </html>
