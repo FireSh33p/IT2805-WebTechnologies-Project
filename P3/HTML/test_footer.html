@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleshhet" href="/Users/danielgulbrandsen/prosjekt-webtek/P3/CSS/style.css">
+    <link rel="stylesheet" href="/Users/danielgulbrandsen/prosjekt-webtek/P3/CSS/footer.css">
     <title>Footer</title>
 </head>
 <body>
@@ -17,49 +17,48 @@
                 <p id="kontakt_email">
                     Badcom@gmail.com
                 </p>
-            </div>
-            <div id="besok_adresse" class="footer_div">
                 <h4 id="adresse">
                     Besøksadresse:
                 </h4>
                 <p id="hoved_adresse">
-                    Gamle Kjemi, Floor K
+                    Gamle Kjemi, Etasje K
                 </p>
             </div>
         </section>
         <!--Bildene vises fortsatt ikke, har ikke noe å si at der er wrappa i en figure--->
-        <section id="footer_sponsor">
-            <div id="sponsor1" class="footer_div">
-                <figure id="tekna">
-                    <img src="/Users/danielgulbrandsen/prosjekt-webtek/P3/Img/tekna_logo.png" alt="Tekna Logo">
-                </figure>
-            </div>
-            <div id="sponsor2" class="footer_div">
-                <figure id="bunnpris">
-                    <img src="/Users/danielgulbrandsen/prosjekt-webtek/P3/Img/bunnpris_logo.png" alt="Bunnpris Logo">
-                </figure>
-            </div>
-        </section>
-        <!--Embedded MazeMap vet jeg ikke helt hvordan jeg gjør, hvis vi skal bruke API'en til Mazemap er vi nødt til å linke både css og JS til eksterne filer fra MazeMap. Noe jeg tror vi ikke kan gjøre i denne oppgaven. Planen derreter var bare å legge inn en link samt med et bilde fra Gamle kjemi.-->
-        <section id="footer_map">
-            <div>
-                <a href="https://use.mazemap.com/#v=1&zlevel=-1&center=10.403421,63.418195&zoom=21&campusid=1&sharepoitype=poi&sharepoi=7942">
-                    <img src="" alt="MazeMap">
-                </a>
-            </div>
-        </section>
-<!--Mangler linkene til sosiale mediene + bildene vises fortsatt ikke-->
         <section id="footer_socials">
             <div id="socials">
                 <figure>
-                    <a href="">
-                        <img src="/Img/facebook_icon.png" alt="Facebook">
+                    <a href="https://www.facebook.com/padlingen/">
+                        <img src="/Users/danielgulbrandsen/prosjekt-webtek/P3/Img/Facebook-logo.png"  alt="Facebook" id="facebook" class="social_media">
                     </a>
                 </figure>
                 <figure>
-                    <a href="">
-                        <img src="/Img/instagram_icon.png" alt="Instagram">
+                    <a href="https://www.instagram.com/badekarpadlingen/?igshid=YmMyMTA2M2Y%3D">
+                        <img src="/Users/danielgulbrandsen/prosjekt-webtek/P3/Img/Instagram-logo.png" alt="Instagram" id="instagram" class="social_media">
                     </a>
+                </figure>
+            </div>
+        </section>
+        <section id="footer_map">
+            <div id="map">
+                <iframe width="1100" height="300" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"src="https://use.mazemap.com/embed.html#v=1&zlevel=-1&center=10.403479,63.418106&zoom=20.7&sharepoitype=poi&sharepoi=7942&campusid=1&utm_medium=iframe"></iframe>
+            </div> 
+        </section>
+        <!--Embedded MazeMap vet jeg ikke helt hvordan jeg gjør, hvis vi skal bruke API'en til Mazemap er vi nødt til å linke både css og JS til eksterne filer fra MazeMap. Noe jeg tror vi ikke kan gjøre i denne oppgaven. Planen derreter var bare å legge inn en link samt med et bilde fra Gamle kjemi.-->
+        <section id="footer_sponsor">
+            <div id="sponsor1" class="footer_div">
+                <figure >
+                    <a href="https://www.tekna.no/en/">
+                        <img src="/Users/danielgulbrandsen/prosjekt-webtek/P3/Img/tekna_logo.png" alt="Tekna Logo" id="tekna">
+                    </a>
+                </figure>
+            </div>
+            <div id="sponsor2" class="footer_div">
+                <figure >
+                    <a href="https://www.bunnpris.no">
+                        <img src="/Users/danielgulbrandsen/prosjekt-webtek/P3/Img/bunnpris_logo.png" alt="Bunnpris Logo" id="bunnpris">
+                    </a> 
                 </figure>
             </div>
         </section>
