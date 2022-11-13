@@ -49,50 +49,40 @@
                 margin:0;
         }
         
-
-
-
-
 </style>
-                          <!--##HTML-NAVBAR-START##-->
-                                <nav>
-                                        <a class="mobil_logo" href="#" ></a>
-                                        <input class="nav_check" type="checkbox" id="nav_check" />
-                                        <label class="nav_ikon" for="nav_check"></label>
 
-                                
-                                       <ul>
-                                       <!--Venstre navn linker-->
-                                       <li>
-                                       <a href="https://www.nrk.no/">INFO</a>
-                                       </li>
-                                       <li>
-                                       <a href="#">VERV</a>
-                                       </li>
-                                       <!--Sentrert navbar logo-->
-                                       <li>
-                                               <a href="#"  class="nav_senter" ></a>
-                                       </li>
-                                       <!--Høyre  linker-->
-                                       <li class="nav_challenges">
-                                       <a href="#">CHALLENGES</a>   
-                                       </li>
-                                       <li class="nav_kontakOss">
-                                       <a href="#">KONTAKT OSS</a>
-                                       </li>
-                                       </ul>
-                                
-                                       </nav>
-                                       <script>
-                                        window.addEventListener("resize", function() {
-                                                if (window.matchMedia("(min-width: 850px)").matches) {
-                                                document.getElementById("nav_check").checked = false;
-                                                } 
-                                                })
-                                
-                                        </script>
-                                
-                          <!--##HTML-NAVBAR-START##-->
+      <!--##HTML-NAVBAR-START##-->
+      <nav>
+        <a class="mobil_logo" href="../HTML/hovedside.html" ></a>
+        <input class="nav_check" type="checkbox" id="nav_check" />
+        <label class="nav_ikon" for="nav_check"></label>
+
+
+       <ul>
+       <!--Venstre navn linker-->
+       <li>
+       <a href="../HTML/info.html">INFO</a>
+       </li>
+       <li>
+       <a href="../HTML/Verv.html">VERV</a>
+       </li>
+       <!--Sentrert navbar logo-->
+       <li>
+               <a href="../HTML/hovedside.html"  class="nav_senter" ></a>
+       </li>
+       <!--Høyre  linker-->
+       <li class="nav_challenges">
+       <a href="../HTML/challenges.html">CHALLENGES</a>   
+       </li>
+       <li class="nav_kontakOss">
+       <a href="../HTML/kontakt_oss.html">KONTAKT OSS</a>
+       </li>
+       </ul>
+
+       </nav>
+
+<!--##HTML-NAVBAR-START##-->
+
 
 
                    
@@ -116,4 +106,11 @@
                  <!-- </div> -->
     
         </body>
+        <script>
+  window.addEventListener("resize", function() {
+    if (window.matchMedia("(min-width: 1000px)").matches) {
+    document.getElementById("nav_check").checked = false;
+    } 
+    })
+        </script>
 </html>
