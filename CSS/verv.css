@@ -1,0 +1,169 @@
+:root{
+    --background-dark: #2d3548;
+    --text-light: rgba(255, 255 255, 0.6);
+    --text-lighter: rgba(255, 255, 255, 0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+}
+html{
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    height: 100%;
+}
+#Verv-wrapper{
+    max-width:calc(var(--width-container) +10px);
+}
+.cards{
+    align-items: flex-start;
+    /* background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
+    /* background-color: #634d8d; */
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    padding: var(--spacing-xxl) var(--spacing-l);
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: var(--spacing-xl);
+    row-gap: var(--spacing-xl);
+    max-width: var(--width-container);
+    width: 100%;
+}
+@media(min-width: 540px){
+    .card-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(min-width: 960px){
+    .card-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.card{
+    list-style: none;
+    position: relative;
+}
+.card::before{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+    width: 100%; 
+}
+.card_background_closed{
+    position: absolute;
+    background-color: rgb(65, 6, 65);
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    filter: brightness(0.75) saturate(1.2) contrast(0.85);
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: filter 200ms linear, transform 200ms linear;
+    box-shadow: 0 20px 30px rgba(99, 77, 141, 0.8);
+}
+.card:hover .card_background_closed{
+    transform: scale(1.05) translateZ(0);
+}
+.card-grid:hover > .card:not(:hover) 
+.card_background_closed{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
+.card_background_open{
+    position: absolute;
+    background-color: rgb(65, 6, 65);
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px) invert(33%) sepia(35%) saturate(796%) hue-rotate(219deg) brightness(90%) contrast(88%);
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: filter 200ms linear, transform 200ms linear;
+    box-shadow: 0 20px 30px rgba(99, 77, 141, 0.8);
+}
+.card:hover .card_background_open{
+    transform: scale(1.05) translateZ(0);
+}
+.card-grid:hover > .card:not(:hover) 
+.card_background_open{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
+.card_content_closed{
+    padding: var(--spacing-l);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.card_category_closed{
+    color: var(--text-lighter);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-s);
+    text-transform: uppercase;
+    display: none;
+}
+.card_heading{
+    color: var(--text-lighter);
+    font-size: 1.9rem;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    line-height: 1.4;
+}
+.card_content_open{
+    padding: var(--spacing-l);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.card_category_open{
+    color: var(--text-lighter);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-s);
+    text-transform: uppercase;
+}
+.card_info{
+    color: var(--text-lighter);
+    font-size: 1.2rem;
+    line-height: 1.1;
+}
+.face2_open{
+    overflow-y: scroll;
+    height: 60%;
+}
+.face2_closed{
+    overflow-y: scroll;
+    height: 60%;
+    display: none;
+}
+.Verv-intro{
+    max-width: var(--width-container);
+    margin: auto;
+}
+#Verv-titel{
+    text-align: center;
+    box-sizing: border-box;
+}
+#Verv-intro{
+    box-sizing: border-box;
+}
