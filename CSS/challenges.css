@@ -1,61 +1,72 @@
 
 
-body{
+/* body{
     width: 100%;
     height: 100%;
     background: rgba(99, 77, 141, 0.7);
     border: 2px solid rgba(255, 255, 255, 0.2);
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 
-header{
+/* header{
     position: fixed;
     border-radius: 50%;    
     color: aliceblue;
     margin-left: 0%;
-}
+} */
 
-nav{
+/* nav{
     position: fixed;
     background-color: aliceblue;
+} */
+.header {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    z-index: 2;
+    margin-top:20vh;
+    background-color:#634d8d;
+    /* padding:5px; */
+    font-weight: 100;
+    color:white;
+
 }
 
-h1{
-    font-weight: 100;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
-    position: fixed;
-}
 
 .challenge{
     font-size: larger;
 }
 
 .wrapper{
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    scroll-behavior: inherit;
-    scroll-snap-type: inherit;
+    /* scroll-behavior: inherit;
+    scroll-snap-type: inherit; */
+    z-index: 1;
 }
 
 .wrapper .card{
-    background-color: antiquewhite;
-    width: 500px;
+    background-color: #634d8d;
+    width: 50vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute;
+    color:white;
     padding: 40px;
     border-radius: 200px, 40px, 40px, 200px;
 }
 
-.card{
+/* .card{
     scroll-snap-align: center;
-}
+} */
 
 .content{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-weight: 500px;
     font-size: 22px;
 }
