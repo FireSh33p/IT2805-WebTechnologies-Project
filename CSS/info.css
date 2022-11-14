@@ -1,102 +1,83 @@
-*{
+.scroll-Lock{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+}
+
+.scroll-Lock > *{
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    scroll-behavior: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-
-.page{
-    width: 100%;
+} 
+.page, .pageTwo, .pageThree{
+    width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../HTML/SS6.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.page{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../HTML/SS6.jpg);
 }
 
 
 .pageTwo{
-    width: 100%;
-    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(../HTML/BadKart.jpg);
-    /* background-color: #f5f7f7; */
-    background-size: cover;
-    background-position: center;
 }
 
 
 .pageThree{
-    width: 100%;
-    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../HTML/ShowKart.jpg);
-    /* background-color: #fff; */
-    background-size: cover;
-    background-position: center;
 }
 
-.content{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
+.content, .contentTwo, .contentThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:15vh 0 0 0;
     color: #fff;
-}
-
-.contentTwo{
-    width: 100%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     text-align: center;
-    color: #fff;
-} 
-
-.contentThree{
-    width: 100%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #fff;
-} 
-
-.content h1{
-    font-size: 70px;
 }
 
-.contentTwo h1{
-    font-size: 70px;
+.content h1, .contentTwo h1, .contentThree h1{
+    font-size: xx-large;
 }
-
-.contentThree h1{
-    font-size: 70px;
-}
-
-.content p{
+.content p, .contentTwo p, .contentThree p{  
     margin-right: 15%;
     margin-left: 15%;
     font-weight: 100;
     line-height: 25px;
+    font-size: medium;
 }
 
-.contentTwo p{
-    margin-right: 15%;
-    margin-left: 15%;
-    font-weight: 100;
-    line-height: 25px;
-}
-
-.contentThree p{
-    margin-right: 15%;
-    margin-left: 15%;
-    font-weight: 100;
-    line-height: 25px;
+.button-container{
+    transform: translateY(-50%);
 }
 
 button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
-    margin: 20px 10px;
+    /* margin: 20px 10px; */
+    margin:15vh 0 0 0;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #009688;
@@ -124,88 +105,15 @@ button:hover span {
 }
 
 button:hover {
-    border: none;
-}
-/* body{
-    /* margin-left: 10%;
-    margin-right: 10%; */
-    /* margin-top: 10%; */
-
-
-/* #grid{
-    display: grid;
-    grid-auto-rows: minmax(250px, auto);
-    margin: auto;
-}
-
-#hode{
-    display: block;
-
-}
-
-img{
-    max-height: 500px;
-    width: 100%;
-}
-
-.bilde{
-    grid-column: 1/ span 4;
-    grid-row: 1;
-    background-image: url("img/SS4.jpg");
-    width: 100%;
-    height: 500px;
-    border: 2px solid black;
-    background-color: blueviolet;
+    border: 2px solid #009688;
 }
 
 
-.omBad{
-    grid-column: 1/ span 4;
-    grid-row: 2;
-    width: 100%;
-    height: 500px;
-    border: 1px solid black;
-    background-color: antiquewhite;
-}
-
-.bildeLink{
-    grid-column: 1/ span 4;
-    grid-row: 3;
-    width: 100%;
-    height: 500px;
-    border: 2px solid black;
-    background-color: blueviolet;
-}
-
-.guideLink{
-    grid-column: 1/ span 4;
-    grid-row: 4;
-    width: 100%;
-    height: 500px;
-    border: 2px solid black;
-    background-color: antiquewhite;
-} */
-
-/* .page{
-    height: 100vh;
-    background-color: antiquewhite;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    /* scroll-padding: 40px;  KANSKJE HJELPSOM NÅR MAN SKAL SETTE INN NAVBAR*/
-/* }
-.page > * {
-    height: 100vh;
-    width: 100%;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.page .hode{
-    background-color: antiquewhite;
-    background-image: url("img/SS2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-} */ 
+@media screen and (max-width: 700px) {
+    .content, .contentTwo, .contentThree{
+        font-size: 5vw;
+        }
+    .content p, .contentTwo p, .contentThree p{
+        font-size: 3vw;
+        }
+} 
