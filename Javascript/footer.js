@@ -285,12 +285,12 @@ class Footer extends HTMLElement {
             <div id="socials">
                 <figure>
                     <a href="https://www.facebook.com/padlingen/">
-                        <img src="/Users/danielgulbrandsen/prosjekt-webtek/P3/Img/Facebook-logo.png"  alt="Facebook" id="facebook" class="social_media">
+                        <img src="../IMG/Facebook-logo.png"  alt="Facebook" id="facebook" class="social_media">
                     </a>
                 </figure>
                 <figure>
                     <a href="https://www.instagram.com/badekarpadlingen/?igshid=YmMyMTA2M2Y%3D">
-                        <img src="/Users/danielgulbrandsen/prosjekt-webtek/P3/Img/Instagram-logo.png" alt="Instagram" id="instagram" class="social_media">
+                        <img src="../IMG/Instagram-logo.png" alt="Instagram" id="instagram" class="social_media">
                     </a>
                 </figure>
             </div>
