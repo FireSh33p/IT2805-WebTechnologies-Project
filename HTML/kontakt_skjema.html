@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/danielgulbrandsen/prosjekt-webtek/CSS/kontakt_skjema.css">
+    <title>Skjema</title>
+</head>
+<body>
+    <section id="navbar">
+
+    </section>
+    <form id="full_form">
+        <section id="informasjon">
+            <div id="navn">
+                <label for="full_navn">Navn:</label>
+                <input type="text" id="full_navn" name="full_navn" placeholder="Ola Nordmann">
+            </div>
+            <div id="epost">
+                <label for="e-post">E-post:</label>
+                <input type="text" id="e-post" name="e-post" placeholder="Ola Nordmann@online.com">
+            </div>
+            <div id="mobilnummer">
+                <label for="nummer">Mobilnummer:</label>
+                <input type="text" id="nummer" name="nummber" placeholder="12345678">
+            </div>
+        </section>
+        <section id="input">
+            <div id="tekst_input">
+                <textarea rows="20" cols="50" id="textarea" name="textarea" form="full_form">Skriv her:</textarea>
+            </div>
+            <div id="button">
+                <input id="send_inn" name="send_inn" type="submit" value="Send inn">
+            </div>
+        </section>
+    </form>
+</body>
+</html>
