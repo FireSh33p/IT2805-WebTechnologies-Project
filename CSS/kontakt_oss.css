@@ -1,0 +1,66 @@
+#overall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    margin-top:25vw;
+    margin-bottom: 25vw;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#tekst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    order: 1;
+    font-size: 22px;
+}
+#skrift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    order:2;
+    max-width: 60%;
+    font-size: large;
+}
+
+#content{
+    display:flex;
+    align-self: center;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#actual_button{
+    display: flex;
+    background-color: #634d8d;
+    color:white;
+    display: inline-block;
+    font-size: large;
+    width:120%;
+    height:100%;
+    padding:10%;
+    align-self: center;
+}   
+
+#actual_button:hover{
+    transform: scale(1.05,1.05);
+}

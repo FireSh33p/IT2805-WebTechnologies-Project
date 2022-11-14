@@ -1,0 +1,255 @@
+@media screen and (min-width: 1400px){
+    footer{
+        background-color: #634d8d;
+        color:white;
+        font-size: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content:center;
+        overflow: hidden;
+    }
+    
+    #tekna{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        max-width: 200px;
+        max-height: 200px;
+        margin:auto;
+        margin-right:70px;
+    }
+    
+    #bunnpris{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        max-width: 400px;
+        max-height:100px; 
+        margin-top: 70px;
+    }
+    
+    #facebook{
+        display: flex;
+        flex-direction: column;
+        align-self: space-around;
+        max-width: 150px;
+        max-height: 220px;
+    }
+    
+    #instagram{
+        display: flex;
+        flex-direction: column;
+        align-self: space-around;
+        max-width: 100px;
+        max-height: 80px;
+        margin: auto;
+      /*  position: absolute;
+        right: 89%;
+        bottom: 50%;*/
+    }
+    
+    #footer_informasjon{
+        display:flex;
+        flex-direction:column;  
+        margin-left:8%;
+        flex: 20%;
+    }
+    
+    #footer_socials{
+        display: flex;
+        flex-direction: column;
+        order: 3;
+        margin:auto;
+        
+    }
+    
+    #socials{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    
+    #footer_map{
+        display:flex;
+        align-self:center;
+        order: 4;
+        margin:auto;
+        /*position:absolute;
+        right:30%;
+        bottom: 56%;*/
+    }
+    
+    #map{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     margin:auto;
+     width: 70%;
+    }
+    
+    #footer_sponsor{
+        display:flex;
+        flex-direction: row;
+        order: 2;
+        flex-grow: 1;
+        flex: 65%;
+        margin:auto;
+    }
+    
+    #kontakt{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #kontakt_email:hover {
+        color: #fffb05;
+    }
+    
+    #hoved_adresse:hover {
+        color: #fffb05;
+    }
+    
+    #facebook:hover{
+        transform:scale(1.2);
+    }
+    
+    #instagram:hover{
+        transform:scale(1.2);
+    }
+    
+    #tekna:hover{
+        transform:scale(1.1);
+    }
+    
+    #bunnpris:hover{
+        transform:scale(1.1);
+    }
+}
+
+
+@media screen and (max-width :1399px){
+    footer{
+        background-color: #634d8d;
+        color:white;
+        font-size: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content:center;
+        overflow: hidden;
+    }
+    
+    #tekna{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-width: 40%;
+        max-height:40%;
+        margin:auto;
+    }
+    
+    #bunnpris{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-width: 100%;
+        max-height:100px;
+        margin:auto;
+    }
+    
+    #facebook{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-width: 150px;
+        max-height: 220px;
+        margin:auto;
+        margin-bottom: 10px;
+    }
+    
+    #instagram{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-width: 100px;
+        max-height: 80px;
+        margin:auto;
+    }
+    
+    #footer_informasjon{
+        display:flex;
+        flex-direction:column;  
+    }
+    
+    #footer_socials{
+        display: flex;
+        flex-direction: row;
+        order: 2;
+    }
+    
+    #socials{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    
+    #footer_map{
+        display:flex;
+        align-self:center;
+        order: 3;
+    }
+    
+    #map{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     margin:auto;
+    }
+    
+    #formal_map{
+        width:75vw;
+    }
+
+    #footer_sponsor{
+        display:flex;
+        flex-direction: column;
+        order: 4;
+        flex-grow: 1;
+        margin:auto;
+    }
+    
+    #kontakt{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #kontakt_email:hover {
+        color: #fffb05;
+    }
+    
+    #hoved_adresse:hover {
+        color: #fffb05;
+    }
+    
+    #facebook:hover{
+        transform:scale(1.2);
+    }
+    
+    #instagram:hover{
+        transform:scale(1.2);
+    }
+    
+    #tekna:hover{
+        transform:scale(1.1);
+    }
+    
+    #bunnpris:hover{
+        transform:scale(1.1);
+    }
+}
+
