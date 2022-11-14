@@ -16,7 +16,10 @@ html{
 }
 body{
     height: 100%;
-}   
+}
+#Verv-wrapper{
+    max-width:calc(var(--width-container) +10px);
+}
 .cards{
     align-items: flex-start;
     /* background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
@@ -54,7 +57,7 @@ body{
     padding-bottom: 100%;
     width: 100%; 
 }
-.card_background{
+.card_background_closed{
     position: absolute;
     background-color: rgb(65, 6, 65);
     background-size: cover;
@@ -68,13 +71,36 @@ body{
     transform-origin: center;
     transform: scale(1) translateZ(0);
     transition: filter 200ms linear, transform 200ms linear;
-    box-shadow: 0 20px 30px rgba(99, 77, 141, 0.8)
+    box-shadow: 0 20px 30px rgba(99, 77, 141, 0.8);
 }
-.card:hover .card_background{
+.card:hover .card_background_closed{
     transform: scale(1.05) translateZ(0);
 }
 .card-grid:hover > .card:not(:hover) 
-.card_background{
+.card_background_closed{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
+.card_background_open{
+    position: absolute;
+    background-color: rgb(65, 6, 65);
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px) invert(33%) sepia(35%) saturate(796%) hue-rotate(219deg) brightness(90%) contrast(88%);
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: filter 200ms linear, transform 200ms linear;
+    box-shadow: 0 20px 30px rgba(99, 77, 141, 0.8);
+}
+.card:hover .card_background_open{
+    transform: scale(1.05) translateZ(0);
+}
+.card-grid:hover > .card:not(:hover) 
+.card_background_open{
     filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
 }
 .card_content_closed{
@@ -129,4 +155,15 @@ body{
     overflow-y: scroll;
     height: 60%;
     display: none;
+}
+.Verv-intro{
+    max-width: var(--width-container);
+    margin: auto;
+}
+#Verv-titel{
+    text-align: center;
+    box-sizing: border-box;
+}
+#Verv-intro{
+    box-sizing: border-box;
 }

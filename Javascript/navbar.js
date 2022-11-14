@@ -8,15 +8,13 @@ class Navbar extends HTMLElement {
         position: sticky;
         position: -webkit-sticky;
         top: 0;
-     
         height: 100%; /*Denne gjør susen*/
+        
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         z-index: 99;
-        
-        
         }
     
     .nav_ikon{
@@ -28,7 +26,7 @@ class Navbar extends HTMLElement {
 
         height: 50px;
         width: 50px;
-
+        border: 2px solid white;
         border-radius: 5px;
     
         background-color: #634d8d;
@@ -37,7 +35,9 @@ class Navbar extends HTMLElement {
         background-repeat: no-repeat;
         
         cursor: pointer;
+        z-index:999;
     }
+
     .mobil_logo{
         position: absolute;
         display: block;
@@ -53,30 +53,33 @@ class Navbar extends HTMLElement {
         background-repeat: no-repeat;
         background-size: cover;
         cursor: pointer;
+
+        z-index:999;
     }
     
     nav ul{
         display: none;
         list-style-type: none;
         padding: 0;
+        margin:0;
+        
         }
     
     nav ul li a{
         display: block;
-        min-width: 150px;
-        
+        width:50vw;
         margin: 25px;    
         padding: 20px;
 
         
-        border: 2px solid rgba(255, 255, 255, 0.4);
+        border: 2px solid white;
         border-radius: 35px;
     
         background-color: #634d8d;
     
         text-decoration: none;
         color: white;
-        font-weight: normal;
+        font-weight: bold;
         text-align: center;
         }
     
@@ -84,23 +87,26 @@ class Navbar extends HTMLElement {
         display: none;
         }
        
-    .nav_check{
+    .nav_check{ 
         display: none;
         }
-        
+    
     .nav_check:checked ~ ul{
             position: absolute;
-            display: block;
-            margin-top: 100px;
-            width: 75vw;
-            
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            width: 100vw;
+            height:100vh;
+            background-color: #634d8d;
         }
     
     .nav_check:checked + .nav_ikon{
             background-image: url("../IMG/kryss2.svg");
     }
     nav ul li a:hover{
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
         
     @media screen and (min-width: 1000px) {
@@ -113,26 +119,27 @@ class Navbar extends HTMLElement {
         }
     
         nav ul{
-            position: absolute;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            margin:0;
-            padding:0;
-            
+            position: absolute ;
+            display: flex ;
+            flex-direction: row ;
+            justify-content: center ;
+            align-items: center ;
+            margin:0 ;
+            padding:0 ;
+            background:none;
         }
-    
+     
         nav ul li a{
             margin: 1vw;
-            padding: 10px;
-            border-radius: 25px;
-            border: 2px solid rgba(255, 255, 255, 0.4);
+            width:150px;
+     
+            padding: 10px ;
+            border-radius: 25px ;
+            border: 2px solid white;
         }
     
         .nav_senter{
-            margin: 10px;
-            padding: 10px;
+
             background: none;
             display: block;
             height: 125px;
