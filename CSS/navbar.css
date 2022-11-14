@@ -2,13 +2,19 @@ nav{
     position: sticky;
     position: -webkit-sticky;
     top: 0;
- 
-    height: 100%; /*Denne gjør susen*/
+    /*Denne gjør susen*/
+    /* height: 100%;  */
+    height: 100px;
+    width: 100vw;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    background-color: #634d8d;
+    
+    
     
     }
 
@@ -17,9 +23,11 @@ nav{
     top:0;
     right: 0;
 
-    margin: 15px;
+    margin: 20px 30px;
+
     height: 50px;
     width: 50px;
+
     border-radius: 5px;
 
     background-color: #634d8d;
@@ -35,9 +43,9 @@ nav{
     top:0;
     left:0;
 
-    margin: 11px 0px 0px 10px;
-    height: 70px;
-    width: 70px;
+    margin: 11px 0px 0px 15px;
+    height: 75px;
+    width: 75px;
 
     background-image: url("../IMG/BadCom-logo-100px.png");
     background-position: center;
@@ -50,6 +58,10 @@ nav ul{
     display: none;
     list-style-type: none;
     padding: 0;
+    width: 100vw;
+    /* height: 100vh; */
+    background: #634d8d;
+    /* background: rgba(99, 77, 141, 0.95); */
     }
 
 nav ul li a{
@@ -58,6 +70,9 @@ nav ul li a{
     
     margin: 25px;    
     padding: 20px;
+
+    
+    border: 2px solid white;
     border-radius: 35px;
 
     background-color: #634d8d;
@@ -80,7 +95,7 @@ nav ul li a{
         position: absolute;
         display: block;
         margin-top: 100px;
-        width: 50vw;
+        /* width: 75vw; */
     }
 
 .nav_check:checked + .nav_ikon{
@@ -91,6 +106,11 @@ nav ul li a:hover{
 }
     
 @media screen and (min-width: 1000px) {
+    nav{
+        height: 135px;
+        
+        background-color: #634d8d;
+    }
     .nav_ikon{
             display: none;
     }
@@ -111,15 +131,15 @@ nav ul li a:hover{
     }
 
     nav ul li a{
-        margin: 20px;
+        margin: 1vw;
         padding: 10px;
         border-radius: 25px;
+        border: 2px solid white;
     }
 
     .nav_senter{
-        margin: 10px;
-        font-family: 'Courier New', Courier, monospace;
-        padding: 10px;
+        margin: 5px;
+        padding: 5px;
         background: none;
         display: block;
         height: 125px;
@@ -128,6 +148,8 @@ nav ul li a:hover{
         background-size: 125px;
         background-position: center;
         background-repeat: no-repeat;
+        border-style: none;
+        border-color: none;
     } 
 
 }
