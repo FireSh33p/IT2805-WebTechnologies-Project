@@ -12,22 +12,19 @@
     <nav-bar></nav-bar>
 </head>
 <body>
-    <section id="navbar">
-
-    </section>
-    <form id="full_form">
+    <form id="full_form" method="get">
         <section id="informasjon">
             <div id="navn">
                 <label for="full_navn">Navn:</label>
-                <input type="text" id="full_navn" name="full_navn" placeholder="Ola Nordmann">
+                <input type="text" id="full_navn" name="full_navn" placeholder="Ola Nordmann" required>
             </div>
             <div id="epost">
                 <label for="e-post">E-post:</label>
-                <input type="text" id="e-post" name="e-post" placeholder="OlaNordmann@online.com">
+                <input type="text" id="e-post" name="e-post" placeholder="OlaNordmann@online.com" required>
             </div>
             <div id="mobilnummer">
                 <label for="nummer">Mobilnummer:</label>
-                <input type="text" id="nummer" name="nummber" placeholder="12345678">
+                <input type="number" id="nummer" name="nummer" max="99999999" placeholder="12345678" required>
             </div>
         </section>
         <section id="input">
@@ -35,10 +32,11 @@
                 <textarea rows="20" cols="50" id="textarea" name="textarea" form="full_form">Skriv her:</textarea>
             </div>
             <div id="button">
-                <input id="send_inn" name="send_inn" type="submit" value="Send inn">
+                <button id="send_inn" type="button" name="send_inn">Send inn</button>
             </div>
         </section>
     </form>
+    <script src="../Javascript/kontakt.js"></script>
 <footer-comp></footer-comp>
 </body>
 </html>
