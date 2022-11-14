@@ -80,7 +80,7 @@ button{
     margin:15vh 0 0 0;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #009688;
+    border: 2px solid #fff;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -89,7 +89,7 @@ button{
 }
 
 span{
-    background: #009688;
+    background: #634d8d;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -105,7 +105,7 @@ button:hover span {
 }
 
 button:hover {
-    border: 2px solid #009688;
+    border: 2px solid #634d8d;
 }
 
 
