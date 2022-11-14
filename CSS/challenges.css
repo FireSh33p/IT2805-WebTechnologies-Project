@@ -9,10 +9,10 @@ body{
 }
 
 header{
-    position: relative;
-    border-radius: 100%;    
+    position: fixed;
+    border-radius: 50%;    
     color: aliceblue;
-    margin-left: 3%;
+    margin-left: 0%;
 }
 
 nav{
