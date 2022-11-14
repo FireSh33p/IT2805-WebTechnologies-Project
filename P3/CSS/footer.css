@@ -209,12 +209,12 @@
      justify-content: center;
      align-items: center;
      margin:auto;
-     width: 70%;
-     border-style: solid;
-     border-width: 2px;
-     border-color: black;
     }
     
+    #formal_map{
+        width:75vw;
+    }
+
     #footer_sponsor{
         display:flex;
         flex-direction: column;
