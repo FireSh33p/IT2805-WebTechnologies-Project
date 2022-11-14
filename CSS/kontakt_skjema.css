@@ -5,10 +5,9 @@ form{
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: scroll;
     font-size: 20px;
-    margin-top:20vw;
-    margin-bottom: 20vw;
+    margin-top:15vw;
+    margin-bottom: 5vw;
 }
 
 #informasjon{
@@ -85,7 +84,7 @@ form{
         flex-wrap: wrap;
         flex-direction: column;
         font-size: 20px;
-        overflow: scroll;
+        
     }
     
 
