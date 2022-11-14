@@ -1,66 +1,38 @@
-body{
-    margin: 0;
-}
-#main_container{
-    background-color: purple;
-    padding-top: 15vh;
-    width: 100%;
-    height: 85vh;
-    background-size: cover;
+#main_container{   
     background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.80)), url(../IMG/guide_background.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    
 }
 .side-buttons{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
-    
-    display: block;
-    position: absolute;
-    width: 20%;
-    height: 50vh;
-    margin-right: 2%;
+    font-size: large;
     min-width: 100px;
-    margin-top: 1%;
+    height: 100vh;
+    margin-right: 5px;
+    margin-top: 25vh;
+    cursor: pointer;
+   
 }
+
 .button-links{
-    border: 2px solid black;
     border-radius: 5px;
-    margin: 5px;
-    background-color: rgb(85, 63, 85);
+    margin: 0.5em;
+    background-color: #634d8d;
     text-align: center;
-    color: whitesmoke;
-    outline: blue;
+    color: white;
+    border:2px solid white;
 }
 
 .container_element{
-    
-    position: absolute;
-    
+    width: fit-content;
+    height: fit-content;
+    color:white;
+    margin: 25vh 10px 10px 10px;
     padding: 10px;
-    height: 100px
-}
-#guide_main_container{
-    width: 75%;
-    min-height: 60vh;
-    display: block;
-    position: absolute;
-    color: white;
+    background-color: #634d8d;
     border-radius: 20px;
-    right: 1%;
-    font-size: x-large;
-}
-
-@media (max-width: 800px) {
-    #main_container{
-        height: 90vh;
-        padding-top: 10vh;
-        background-position: center;
-    }
-    .side-buttons{
-        height: 50vh;
-    }
-    #guide_main_container{
-        width: 70%;
-        font-size: 1em;
-    }
-
+    border: 2px solid white;
 }
