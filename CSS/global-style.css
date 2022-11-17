@@ -3,6 +3,7 @@ body{
     margin:0;
     padding:0;
     overflow-x: hidden;
+    background-color: #634d8d;
 }
 .a-button{
     padding:5px;

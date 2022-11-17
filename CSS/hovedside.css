@@ -1,6 +1,5 @@
 .home-main{
     height: 100vh;
-    background-color: white;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     overflow-x: hidden;
@@ -74,8 +73,11 @@
     z-index: 2;
     text-align: center;
 }
-.frame1 .main-content1{
+/* .frame1 .main-content1{
     margin-top: 100px;    
+} */
+.main-content1{
+    margin-top: 100px;
 }
 .main-content1{
     font-size: 1.5rem;
