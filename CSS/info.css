@@ -72,7 +72,6 @@ button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
-    /* margin: 20px 10px; */
     margin:15vh 0 0 0;
     border-radius: 25px;
     font-weight: bold;
@@ -85,7 +84,7 @@ button{
 }
 
 span{
-    background: #634d8d;
+    background: #9481b8;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -99,11 +98,6 @@ span{
 button:hover span {
     width: 100%;
 }
-
-button:hover {
-    border: 2px solid #634d8d;
-}
-
 
 @media screen and (max-width: 700px) {
     .content, .contentTwo, .contentThree{

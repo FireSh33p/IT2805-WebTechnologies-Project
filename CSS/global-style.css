@@ -1,8 +1,23 @@
-html{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-} 
 body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin:0;
     padding:0;
     overflow-x: hidden;
+}
+.a-button{
+    padding:5px;
+    margin:5px;
+    border-radius: 3px;
+    text-decoration: none;
+    color:white;
+    background-color: #9481b8;
+    border: 2px solid white;
+    transform: scale(0.8);
+}
+.a-button:hover{
+    border: 2px solid white;
+    transform: scale(0.85);
+}
+.a-button:active{
+    transform: scale(0.9);
 }

@@ -15,23 +15,7 @@
     padding-top:calc(var(--spacing-xl)*2.5);
     background-color: #cccccc;
 }
-.a-button{
-    padding:5px;
-    margin:5px;
-    border-radius: 3px;
-    text-decoration: none;
-    color:white;
-    background-color: rgba(99,77,141,1);
-    border: 2px solid white;
-    transform: scale(0.8);
-}
-.a-button:hover{
-    border: 2px solid white;
-    transform: scale(0.85);
-}
-.a-button:active{
-    transform: scale(0.9);
-}
+
 .cards{
     align-items: flex-start;
     display: flex;
