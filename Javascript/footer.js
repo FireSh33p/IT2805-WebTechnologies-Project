@@ -285,12 +285,12 @@ class Footer extends HTMLElement {
             <div id="socials">
                 <figure>
                     <a href="https://www.facebook.com/padlingen/">
-                        <img src="../IMG/Facebook-logo.png"  alt="Facebook" id="facebook" class="social_media">
+                        <img src="../IMG/logoer/Facebook-logo.png"  alt="Facebook" id="facebook" class="social_media">
                     </a>
                 </figure>
                 <figure>
                     <a href="https://www.instagram.com/badekarpadlingen/?igshid=YmMyMTA2M2Y%3D">
-                        <img src="../IMG/Instagram-logo.png" alt="Instagram" id="instagram" class="social_media">
+                        <img src="../IMG/logoer/Instagram-logo.png" alt="Instagram" id="instagram" class="social_media">
                     </a>
                 </figure>
             </div>
@@ -305,14 +305,14 @@ class Footer extends HTMLElement {
             <div id="sponsor1" class="footer_div">
                 <figure >
                     <a href="https://www.tekna.no/en/">
-                        <img src="../IMG/tekna_logo.png" alt="Tekna Logo" id="tekna">
+                        <img src="../IMG/logoer/tekna_logo.png" alt="Tekna Logo" id="tekna">
                     </a>
                 </figure>
             </div>
             <div id="sponsor2" class="footer_div">
                 <figure >
                     <a href="https://www.bunnpris.no">
-                        <img src="../IMG/bunnpris_logo.png" alt="Bunnpris Logo" id="bunnpris">
+                        <img src="../IMG/logoer/bunnpris_logo.png" alt="Bunnpris Logo" id="bunnpris">
                     </a> 
                 </figure>
             </div>

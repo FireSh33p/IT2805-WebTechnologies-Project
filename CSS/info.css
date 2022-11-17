@@ -16,11 +16,7 @@
     align-items: center;
 }
 
- *{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-} 
+
 .page, .pageTwo, .pageThree{
     width: 100vw;
     height: 100vh;
@@ -33,17 +29,17 @@
 
 }
 .page{
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../HTML/SS6.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../IMG/background-info-main-guide/info-bg3.png);
 }
 
 
 .pageTwo{
-    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(../HTML/BadKart.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(../IMG/background-info-main-guide/info-bg2.jpg);
 }
 
 
 .pageThree{
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../HTML/ShowKart.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../IMG/background-info-main-guide/info-bg1.jpg);
 }
 
 .content, .contentTwo, .contentThree{
