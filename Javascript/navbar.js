@@ -30,7 +30,7 @@ class Navbar extends HTMLElement {
         border-radius: 5px;
     
         background-color: #634d8d;
-        background-image: url("../IMG/burgerIkon2.svg");
+        background-image: url("../IMG/Ikoner/burgerIkon2.svg");
         background-position: center;
         background-repeat: no-repeat;
         
@@ -48,7 +48,7 @@ class Navbar extends HTMLElement {
         height: 75px;
         width: 75px;
     
-        background-image: url("../IMG/BadCom-logo-100px.png");
+        background-image: url("../IMG/logoer/BadCom-logo-100px.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -103,7 +103,7 @@ class Navbar extends HTMLElement {
         }
     
     .nav_check:checked + .nav_ikon{
-            background-image: url("../IMG/kryss2.svg");
+            background-image: url("../IMG/Ikoner/kryss2.svg");
     }
     nav ul li a:hover{
         transform: scale(1.05);
@@ -144,7 +144,7 @@ class Navbar extends HTMLElement {
             display: block;
             height: 125px;
             width: 125px;
-            background-image: url("../IMG/BadCom-logo-360px.png");
+            background-image: url("../IMG/logoer/BadCom-logo-360px.png");
             background-size: 125px;
             background-position: center;
             background-repeat: no-repeat;
