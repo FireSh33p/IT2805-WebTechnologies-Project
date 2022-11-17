@@ -7,7 +7,8 @@ class Footer extends HTMLElement {
         footer{
             height:100vh;            
             background-color: #634d8d;
-
+            margin-top:60px;
+            padding-bottom:0;
             color:white;
             font-size: 22px;
 
