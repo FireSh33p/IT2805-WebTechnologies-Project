@@ -4,6 +4,7 @@
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     overflow-x: hidden;
+    /* overflow: hidden; */
     
 }
 .home-main > * {
@@ -11,7 +12,7 @@
     width: 100vw;
     scroll-snap-align: center;
     scroll-snap-stop: always;
-    scroll-behavior: auto;
+    /* scroll-behavior: auto; */
     display: flex;
     justify-content: center;
     align-items: center;

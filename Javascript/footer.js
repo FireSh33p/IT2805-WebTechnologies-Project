@@ -5,15 +5,19 @@ class Footer extends HTMLElement {
       <style>
       @media screen and (min-width: 1400px){
         footer{
+            height:100vh;            
             background-color: #634d8d;
+
             color:white;
             font-size: 22px;
+
             display: flex;
             flex-direction: row;
             justify-content: center;
             flex-wrap: wrap;
             align-items: center;
             align-content:center;
+
             overflow: hidden;
         }
         
@@ -51,9 +55,7 @@ class Footer extends HTMLElement {
             max-width: 100px;
             max-height: 80px;
             margin: auto;
-          /*  position: absolute;
-            right: 89%;
-            bottom: 50%;*/
+
         }
         
         #footer_informasjon{
@@ -81,17 +83,15 @@ class Footer extends HTMLElement {
             display:flex;
             align-self:center;
             order: 4;
-            margin:auto;
-            /*position:absolute;
-            right:30%;
-            bottom: 56%;*/
+            // margin:auto;
+
         }
         
         #map{
          display:flex;
          justify-content: center;
          align-items: center;
-         margin:auto;
+        //  margin:auto;
          width: 70%;
         }
         
@@ -137,6 +137,7 @@ class Footer extends HTMLElement {
     
     @media screen and (max-width :1399px){
         footer{
+            height:100vh;
             background-color: #634d8d;
             color:white;
             font-size: 22px;
@@ -153,8 +154,9 @@ class Footer extends HTMLElement {
             display: flex;
             flex-direction: column;
             align-self: center;
-            max-width: 60%;
-            max-height:60%;
+            // max-width: 60%;
+            // max-height:60%;
+            max-width:20vw;
             margin:auto;
         }
         
@@ -164,15 +166,15 @@ class Footer extends HTMLElement {
             align-self: center;
             max-width: 100%;
             max-height:100px;
-            margin:auto;
+            // margin:auto;
         }
         
         #facebook{
             display: flex;
             flex-direction: column;
             align-self: center;
-            max-width: 150px;
-            max-height: 220px;
+            max-width: 100px;
+            // max-height: 170px;
             margin:auto;
             margin-bottom: 10px;
         }
@@ -181,8 +183,8 @@ class Footer extends HTMLElement {
             display: flex;
             flex-direction: column;
             align-self: center;
-            max-width: 100px;
-            max-height: 80px;
+            max-width: 55px;
+            // max-height: 55px;
             margin:auto;
         }
         
