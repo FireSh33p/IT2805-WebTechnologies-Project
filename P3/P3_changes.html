@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P3 project requirements</title>
+    <link rel="stylesheet" href="../P3/style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+</head>
+<body>
+    <header>
+        <h1>
+            P3: Project Coding! 
+        </h1>
+    </header>
+    <main>
+        <section>
+            <h2>1. Document Details <br></h2>
+            <p>
+                P1 Project requirements
+                <br>
+                <br>
+                Snorre, Daniel, Arman, Jeremias, Markus, Brendan
+                <br>
+                <br>
+                IT2805 Oktober-November 2022
+                <br>
+            </p>
+        </section>
+        <section>
+            <h2>2. Administrative Details <br></h2>
+            <p>
+                Client Name: BadCom
+                <br>
+                <br>
+                Website Name: Badekarpadlignen
+                <br>
+                <br>
+                Contact person: badkom.mail@gmail.com
+                <br>
+                Link to webpage: <a href="https://folk.ntnu.no/daniegul/documents/badekarpadling/prosjekt-webtek/HTML/hovedside.html">Badekarpadlignen</a>
+            </p>
+        </section>
+        <section>
+            <h2>3. Overview of changes <br></h2>
+        
+                <h4>HTML</h4>
+                <p>
+                    Most of what was planned in P2 has been added to the page delivered in P3. The page with the most drastic change from P2 is the guide page.
+                    The change was made to make the page more readable, as the page containes alot of text, but solution for how to show the text turned out to workd poorly on mobile. 
+                    Changes will be made to guide.html in P4. 
+                </p>
+                <h4>Styling</h4>
+                <p>
+                    The styling of the page was not sepcifiend in much detail in P2, but some of the colors was mentioned and what fonts would be used. The 
+                    picutes in P2 communicated how the pages should be styled. 
+                    In the end we have used the colors metioned in P2, but the font-family was changed to Verdana, Geneva, Tahoma or sans-serif. 
+                </p>
+                <h4>Javascript</h4>
+                <p>
+                    The javascript functionality described in P2 has mostly been used in P3, but some new features have been added and some removed. The JS game was scraped due to 
+                    time constraint. The navbar and the footer was made into custom HTML elements in JS files. This was not planned in P2, but was done in P3 to not reuse code. 
+                </p>
+         
+        </section>
+        <section>
+            <h2>4. Specific changes and reasoning <br></h2>
+            <section>
+            <h3>guide.html</h3>
+            <p>
+                Made divs for all steps and added corresponding text. 
+                Made corresponding divs that served as buttons with onclick 
+                functionality used in guide.js. Placed buttons and the text content 
+                in different divs to make styling easier. These were also placed into 
+                a main div to avoid having to style the body. 
+            </p>
+            <h3>guide.js</h3>
+            <p>
+                Decided to instead of slideshow functionality, use a more simplistic button functionality.
+                The buttons now hide all paragraphs other than the one that's linked to that button. This as it felt more fitting and easier to navigate from one end to the other. This was harder with using a slideshow as there were 9 steps.
+            </p>
+            <h3>guide.css</h3>
+            <p>
+                Styled with a height so that scrolling isn’t possible.
+                Made the buttons round, as to be more visually pleasing and 
+                Changed colors to match the color scheme. Added different settings 
+                when screen width is below 800 pixels. This to prevent unnecessary whitespace and bad sizing on mobile devices.
+
+            </p>
+            </section>
+            <section>
+            <h3>info.html</h3>
+            <p>
+                My original plan was using a grid as a display form for the website. 
+                But after further consideration I figured it was better with flex. I really like the
+                 way the scroll-snap setting looks so I wanted to imply that in my webpage. 
+                 Since my background is pictures I decided I would not need more img on my page. 
+                 Therefore I made buttons to link to the two separate web pages I needed to link. 
+                 On the buttons I use css to make them appear as buttons you could press.
+            </p>
+            <h3>info.js</h3>
+            <p>
+                I also took inspiration from W3Schools for the js of the slideshow. 
+                The js was simple and easy to understand and link to the html. 
+            </p>
+            <h3>info.css</h3>
+            <p>
+                As I stated earlier I really liked the way snap-scroll works on pages. Therefore the css to the webpage is centered around this ability. I wanted the information on the page to be in the middle with bright white color. I dimmed the photos used as background so they would not take too much attention from the user. 
+            </p>
+            </section>
+            <section>
+            <h3>SlideShow.html</h3>
+            <p>
+                For the slideshow I took inspiration from W3Schools. I used a simple and 
+                structured html with plenty of divs for the different img. 
+            </p>
+            <h3>Slideshow.js</h3>
+            <p>
+                I also took inspiration from W3Schools for the js of the slideshow. The js was simple and easy to understand and link to the html. 
+            </p>
+            <h3>Slideshow.css</h3>
+            <p>
+                I wanted the slideshow to be the main part of the page. And therefore did not add other elements to the webpage. 
+                Except for the navbar, I wanted the slideshow to have 100vh so you could not scroll on the page. The placement of the 
+                navbar will still be on the top of the page over the photo. This will make it easy for the user to navigate through the page even when enjoying the slideshow.
+            </p>
+        </section>
+        <section>
+            <h3>challenges.html</h3>
+            <p>
+                The making of the challenges page followed the description from P2. 
+                The page consists of scrollable cards with 21 challenges 
+                with every card having following the purple theme of the website. 
+            </p>
+        </section>
+        <section>
+            <h3>hovedside.html</h3>
+            <p>
+                The homepage ended up being similar to how it was described in P2. It is a scrollable page, using scroll-snap functionality. 
+                This makes the page mobile-friendly. An animation was added, which was not the plan, but it communicates the scrolling functionality to the user. 
+            </p>
+            <h3>hovedside.css</h3>
+            <p>
+                The styling of the navbar for large screens is very similar to how the navbar was described in P2. It was styled with a mobile first approach. On small screens the navbar fills the screen, goes vertical and hides the logo in the middle of the navbar. The mobile logo and the hamburger menu icon is shown. The CSS file is not used in production, but the code is in navbar.js.  
+            </p>
+        </section>
+        <section>
+            <h3>navbar.html</h3>
+            <p>
+                The navbar was made with a mobile first approach. The nav menu is vertical on small screens and accessed by a hamburger menu icon. The HTML file is not used in production, 
+                because a choice was made to make the navbar a JS component, to not reuse code on every page. But the HTML file was used to develop the scope of the navbar. 
+            </p>
+            <h3>navbar.js</h3>
+            <p>
+                The navbar JS file makes a component out of the navbar. The navbar is used on the pages by importing the script and using the custom HTML tag <nav-bar></nav-bar>. This was not planned in P2, but we found this was the best solution to not reuse code. The script also closed the vertical navbar when the screen-size becomes larger than 1000px. This is to fix a bug where the vertical navbar would stay open, when going to desktop size, which would also affect styling. Both styling and the HTML of the navbar is found in navbar.js. 
+            </p>
+            <h3>navbar.css</h3>
+            <p>
+                The navbar was made with a mobile first approach. The nav menu is vertical on small screens and accessed by a hamburger menu icon. The HTML file is not used in production, 
+                because a choice was made to make the navbar a JS component, to not reuse code on every page. But the HTML file was used to develop the scope of the navbar. 
+            </p>
+        </section>
+        <section>
+            <h3>Verv.html</h3>
+            <p>
+                Nothing changed
+            </p>
+            <h3>Verv.js</h3>
+            <p>
+                All the cards had an interactive component added to it. It was to make the site more interactive. When the cards are clicked it reveals the content (information about the voluntary work) that was hidden before. It also applies a visual indicator that the card has been clicked.
+
+            </p>
+            <h3>Verv.css</h3>
+            <p>
+                A blur effect was added to the cards, when a mouse hovers over it, while it is disabled during mobile use. All the cards got a picture corresponding to the position.
+            </p>
+        </section>
+        <section>
+            <h3>kontakt_skjema.html</h3>
+            <p>
+                The contact page and form was made with simple html and js, where the form is validated and you receive a message (alert) saying that the form is not working. We have to do this as there isn't any PHP allowed in this project. The design stayed consistent, although bland, functional, and that was the idea.
+            </p>
+            <h3>kontakt_oss.html</h3>
+            <p>
+                This html file was produced after a misunderstanding of the structure of our website, and thus is not present in the final product.
+            </p>
+        </section>
+        <section>
+            <h3>test_footer.html</h3>
+            <p>
+                This html file was turned into a component in footer.js.
+            </p>
+            <h3>footer.js</h3>
+            <p>
+                The footer is a component present on all pages. Just as in the navbar, making the footer a component was the best way to not reuse code. A difference we decided on was that the inbuilt MazeMap functionality is not present on lower resolutions as the modularity was not working well. 
+            </p>
+        </section>
+        
+        </section>
+        <section>
+            <h2>5. Final division of work <br></h2>
+            <p>
+                The division of labor was the same as was described in P2. We have worked alot together, 
+                so most people have had some influence on every page. 
+                
+            </p>
+        </section>
+        <section>
+            <h2>6. Team-work and minimum requirements</h2>
+            <p>
+                The team-work has been good. We have had a lot of meetings where we worked on the site. 
+                Communication within the group could have been better, but this was not a major problem, as 
+                all work was finnished in godd time anyways.  
+
+            </p>
+        </section>
+ 
+            <h3>Mappestruktur</h3>
+            <ul>
+                <li> CSS
+                  <ul>
+                    <li>challenges.css</li>
+                    <li>global-styles.css</li>
+                    <li>footer.css</li>
+                    <li>guide.css</li>
+                    <li>hovedside.css</li>
+                    <li>info.css</li>
+                    <li>kontakt_skjema.css</li>
+                    <li>navbar.css</li>
+                    <li>SlideShow.css</li>
+                    <li>verv.css</li>
+                  </ul>
+                </li>
+
+                <li> HTML
+                    <ul>
+                    <li>challenges.html</li>
+                    <li>guide.html</li>
+                    <li>hovedside.html</li>
+                    <li>info.html</li>
+                    <li>kontakt_skjema.html</li>
+                    <li>navbar.html</li>
+                    <li>SlideShow.html</li>
+                    <li>Verv.html</li>
+                </ul>
+                </li>
+                <li> IMG
+                    <ul>
+                    <li>gallery-img-compressed</li>
+                        <ul>
+                            -compredded images
+                        </ul>
+                    <li>BadCom-logo-100px.png</li>
+                    <li>BadCom-logo-360px.png</li>
+                    <li>BadCom-logo-ikon.png</li>
+                    <li>BadCom-logo-ikon-100px.png</li>
+                    <li>Facebook-logo.png</li>
+                    <li>Instagram-logo.png</li>
+                    <li>bakgrunn1-min.png</li>
+                    <li>bakgrunn2-min.png</li>
+                    <li>bakgrunn3-min.png</li>
+                    <li>bakgrunn4-min.png</li>
+                    <li>bathub_ikon.png</li>
+                    <li>bunnpris_logo.png</li>
+                    <li>burgerIkon2.svg</li>
+                    <li>guide_background.jpg</li>
+                    <li>kryss2.svg</li>
+                    <li>swipe-point.png</li>
+                    <li>tekna_logo.png</li>
+                </ul>
+                </li>
+                <li>Javascript
+                    <ul>
+                    <li>footer.js</li>
+                    <li>guide.js</li>
+                    <li>kontakt.js</li>
+                    <li>navbar.js</li>
+                    <li>SlideShow.js</li>
+                    <li>verv.js</li>
+                </ul>
+                </li>
+              </ul>
+        </section>
+    </main>
+</body>
+</html>
