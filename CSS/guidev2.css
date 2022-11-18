@@ -1,5 +1,5 @@
 #nav-guide{
-    background-color: rgb(148, 129, 184);
+    background-color: #f6d41c;
     transform: scale(1.2);
 }
 .main-guide{
@@ -52,7 +52,7 @@
     scrollbar-width: thin;
 
     scrollbar-color:initial;
-    background: rgba(148, 129, 184, 0.95);
+    background: rgba(99, 77, 141, 0.9);
     border: 2px solid  white;
     border-radius: 10px;
 
@@ -73,7 +73,7 @@
     z-index: 50; 
     border: 2px solid white; 
     outline: none; 
-    background-color:rgba(99, 77, 141, 1);
+    background-color:rgba(99, 77, 141, 0.9);
     color: white;
     cursor: pointer;
 
