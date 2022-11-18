@@ -1,4 +1,7 @@
-
+#nav-challenges{
+    background-color: rgb(148, 129, 184);
+    transform: scale(1.2);
+}
 .header {
     display: flex;
 

@@ -19,9 +19,13 @@
     <nav-bar></nav-bar>
 </head>
 <body>
-<article class="main-guide" id="mainGuide" onscroll="scrollFunction()">
+    <!-- onscroll="scrollFunction()" -->
+<article class="main-guide" id="mainGuide"  > 
+    <div onclick="functionGoLeft()" id="goLeftBtn"></div>
+    <div onclick="functionGoRight()" id="goRightBtn"></div>
+  
     <section class="sec-steg1">
-    <div class="sec-content">
+    <div class="sec-content" id=1>
         <h2>1.  Skaff laget!</h2>
         <p>
             Bli med en gjeng nye 1.klassinger fra samme linjeforening.
@@ -34,7 +38,7 @@
         </p>
     </div>
     </section>
-    <section class="sec-steg2">
+    <section class="sec-steg2" id=2>
     <div class="sec-content">
         <h2>2.  Skaff et badekar!</h2>
         <p>
@@ -150,14 +154,18 @@
             til å gi deg kake på kontoret for noen virtuelle poeng? Har du lyst til å endre siden over til nynorsk igjen.
             Søk til BadCom!! 
         </p>
+
     </div>
 
     </section>
-<button type="button" onclick="functionGoLeft()" id="goLeftBtn">Til start</button>
-</article>
 
-<script src="../Javascript/navbar.js"></script>
-<script src="../Javascript/guidev2.js"> </script>
+
+    
+</article>
 <footer-comp></footer-comp>
+<script src="../Javascript/navbar.js"></script>
+<script src="../Javascript/guidev2.js"></script>
+
 </body>
+
 </html>

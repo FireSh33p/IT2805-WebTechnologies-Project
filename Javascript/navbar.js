@@ -180,7 +180,7 @@ class Navbar extends HTMLElement {
              <a href="../HTML/challenges.html" id="nav-challenges">CHALLENGES</a>   
              </li>
              <li>
-             <a href="../HTML/guide.html" id="nav-guide">GUIDE</a>
+             <a href="../HTML/guidev2.html" id="nav-guide">GUIDE</a>
              </li>
              </ul>
       
