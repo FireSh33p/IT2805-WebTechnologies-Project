@@ -3,8 +3,7 @@
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     overflow-x: hidden;
-    /* overflow: hidden; */
-    
+    scroll-behavior: smooth;
 }
 .home-main > * {
     height: 100vh;
@@ -73,9 +72,7 @@
     z-index: 2;
     text-align: center;
 }
-/* .frame1 .main-content1{
-    margin-top: 100px;    
-} */
+
 .main-content1{
     margin-top: 100px;
 }

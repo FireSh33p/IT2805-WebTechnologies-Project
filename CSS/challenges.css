@@ -1,4 +1,7 @@
-
+#nav-challenges{
+    background-color: #f6d41c;
+    transform: scale(1.2);
+}
 .header {
     display: flex;
 

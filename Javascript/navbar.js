@@ -166,21 +166,21 @@ class Navbar extends HTMLElement {
              <ul>
              <!--Venstre navn linker-->
              <li>
-             <a href="../HTML/info.html">INFO</a>
+             <a href="../HTML/info.html" id="nav-info">INFO</a>
              </li>
              <li>
-             <a href="../HTML/Verv.html">VERV</a>
+             <a href="../HTML/Verv.html" id="nav-verv">VERV</a>
              </li>
              <!--Sentrert navbar logo-->
              <li>
                      <a href="../HTML/hovedside.html"  class="nav_senter" ></a>
              </li>
              <!--Høyre  linker-->
-             <li class="nav_challenges">
-             <a href="../HTML/challenges.html">CHALLENGES</a>   
+             <li>
+             <a href="../HTML/challenges.html" id="nav-challenges">CHALLENGES</a>   
              </li>
-             <li class="nav_kontakOss">
-             <a href="../HTML/guide.html">GUIDE</a>
+             <li>
+             <a href="../HTML/guidev2.html" id="nav-guide">GUIDE</a>
              </li>
              </ul>
       

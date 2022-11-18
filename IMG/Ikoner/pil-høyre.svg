@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10.831318mm"
+   height="15.29076mm"
+   viewBox="0 0 27.831318 15.29076"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="hvit-pil.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.587745"
+     inkscape:cx="177.56773"
+     inkscape:cy="220.84866"
+     inkscape:window-width="3440"
+     inkscape:window-height="1411"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1701">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke-width:3.653;stroke-linecap:square;stroke-dashoffset:5.81783;paint-order:markers fill stroke"
+         id="rect1703"
+         width="19.665045"
+         height="19.375853"
+         x="124.35248"
+         y="-46.415287"
+         transform="rotate(45)" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.333013,-38.593501)">
+    <g
+       id="g1707"
+       transform="matrix(1.2532195,0,0,1.2532195,-16.037149,-9.7726292)"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.809867;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="pil-venstre.svg"
+       inkscape:export-xdpi="45.632038"
+       inkscape:export-ydpi="45.632038">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.809867;stroke-linecap:square;stroke-dasharray:none;stroke-dashoffset:5.81783;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect1162"
+         width="15.616358"
+         height="3.9040897"
+         x="63.333008"
+         y="42.74205"
+         ry="0.063877381" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.02816;stroke-linecap:square;stroke-dasharray:none;stroke-dashoffset:5.81783;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect1507"
+         width="19.665045"
+         height="19.375853"
+         x="111.02077"
+         y="43.633186"
+         clip-path="url(#clipPath1701)"
+         transform="matrix(0,0.62045005,-1,0,140.65078,-30.289336)" />
+    </g>
+  </g>
+</svg>

@@ -1,8 +1,13 @@
+#nav-info{
+    background-color: #f6d41c;
+    transform: scale(1.2);
+}
 .scroll-Lock{
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .scroll-Lock > *{
