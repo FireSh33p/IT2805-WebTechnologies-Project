@@ -33,17 +33,17 @@
 
 }
 .page{
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../HTML/SS6.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../IMG/gallery-img-compressed/Bilde2-min.jpg);
 }
 
 
 .pageTwo{
-    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(../HTML/BadKart.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(../IMG/gallery-img-compressed/Baderkarpadlingen\ 2018-11-min.jpg);
 }
 
 
 .pageThree{
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../HTML/ShowKart.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../IMG/gallery-img-compressed/DSC_0588-min.jpg);
 }
 
 .content, .contentTwo, .contentThree{
