@@ -10,7 +10,7 @@ class Footer extends HTMLElement {
             margin-top:60px;
             padding-bottom:0;
             color:white;
-            font-size: 22px;
+            font-size: 1em;
 
             display: flex;
             flex-direction: row;
@@ -26,8 +26,8 @@ class Footer extends HTMLElement {
             display: flex;
             flex-direction: row;
             align-self: center;
-            max-width: 200px;
-            max-height: 200px;
+            max-width: 170px;
+            max-height:206px;
             margin:auto;
             margin-right:70px;
         }
@@ -53,8 +53,8 @@ class Footer extends HTMLElement {
             display: flex;
             flex-direction: column;
             align-self: space-around;
-            max-width: 100px;
-            max-height: 80px;
+            max-width: 150px;
+            max-height: 220px;
             margin: auto;
 
         }
@@ -81,18 +81,18 @@ class Footer extends HTMLElement {
         }
         
         #footer_map{
-            display:flex;
-            align-self:center;
+            // display:flex;
+            // align-self:center;
             order: 4;
-            // margin:auto;
+            margin:auto;
 
         }
         
         #map{
          display:flex;
-         justify-content: center;
-         align-items: center;
-        //  margin:auto;
+        //  justify-content: center;
+        //  align-items: center;
+         margin:auto;
          width: 70%;
         }
         
@@ -103,19 +103,6 @@ class Footer extends HTMLElement {
             flex-grow: 1;
             flex: 65%;
             margin:auto;
-        }
-        
-        #kontakt{
-            display: flex;
-            flex-direction: column;
-        }
-        
-        #kontakt_email:hover {
-            color: #fffb05;
-        }
-        
-        #hoved_adresse:hover {
-            color: #fffb05;
         }
         
         #facebook:hover{
@@ -141,7 +128,7 @@ class Footer extends HTMLElement {
             height:100vh;
             background-color: #634d8d;
             color:white;
-            font-size: 22px;
+            font-size: 1em;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -155,9 +142,8 @@ class Footer extends HTMLElement {
             display: flex;
             flex-direction: column;
             align-self: center;
-            // max-width: 60%;
-            // max-height:60%;
-            max-width:20vw;
+            max-width: 170px;
+            max-height:206px;
             margin:auto;
         }
         
@@ -167,7 +153,7 @@ class Footer extends HTMLElement {
             align-self: center;
             max-width: 100%;
             max-height:100px;
-            // margin:auto;
+            margin:auto;
         }
         
         #facebook{
@@ -175,7 +161,7 @@ class Footer extends HTMLElement {
             flex-direction: column;
             align-self: center;
             max-width: 100px;
-            // max-height: 170px;
+            max-height: 80px;
             margin:auto;
             margin-bottom: 10px;
         }
@@ -184,14 +170,14 @@ class Footer extends HTMLElement {
             display: flex;
             flex-direction: column;
             align-self: center;
-            max-width: 55px;
-            // max-height: 55px;
+            max-width: 100px;
+            max-height: 80px;
             margin:auto;
         }
         
         #footer_informasjon{
-            display:flex;
-            flex-direction:column;  
+            display: flex;
+            flex-direction: row; 
         }
         
         #footer_socials{
@@ -209,7 +195,7 @@ class Footer extends HTMLElement {
         #footer_map{
             display:flex;
             align-self:center;
-            order: 3;
+            order: 4;
         }
         
         #map{
@@ -227,22 +213,9 @@ class Footer extends HTMLElement {
         #footer_sponsor{
             display:flex;
             flex-direction: column;
-            order: 4;
+            order: 3;
             flex-grow: 1;
             margin:auto;
-        }
-        
-        #kontakt{
-            display: flex;
-            flex-direction: column;
-        }
-        
-        #kontakt_email:hover {
-            color: #fffb05;
-        }
-        
-        #hoved_adresse:hover {
-            color: #fffb05;
         }
         
         #facebook:hover{
@@ -288,7 +261,7 @@ class Footer extends HTMLElement {
             <div id="socials">
                 <figure>
                     <a href="https://www.facebook.com/padlingen/">
-                        <img src="../IMG/logoer/Facebook-logo.png"  alt="Facebook" id="facebook" class="social_media">
+                        <img src="../IMG/logoer/facebook-logo.png"  alt="Facebook" id="facebook" class="social_media">
                     </a>
                 </figure>
                 <figure>

@@ -1,8 +1,10 @@
 @media screen and (min-width: 1400px){
+    
     footer{
         background-color: #634d8d;
         color:white;
-        font-size: 22px;
+        /* font-size: 22px; */
+        font-size: 1em;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -16,8 +18,8 @@
         display: flex;
         flex-direction: row;
         align-self: center;
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 170px;
+        max-height:206px;
         margin:auto;
         margin-right:70px;
     }
@@ -43,12 +45,10 @@
         display: flex;
         flex-direction: column;
         align-self: space-around;
-        max-width: 100px;
-        max-height: 80px;
+        max-width: 150px;
+        max-height: 220px;
         margin: auto;
-      /*  position: absolute;
-        right: 89%;
-        bottom: 50%;*/
+
     }
     
     #footer_informasjon{
@@ -61,6 +61,8 @@
     #footer_socials{
         display: flex;
         flex-direction: column;
+        justify-content: end;
+        align-items: flex-end;
         order: 3;
         margin:auto;
         
@@ -70,22 +72,17 @@
         display:flex;
         flex-direction: column;
         
+        
     }
     
     #footer_map{
-        display:flex;
-        align-self:center;
         order: 4;
         margin:auto;
-        /*position:absolute;
-        right:30%;
-        bottom: 56%;*/
+
     }
     
     #map{
      display:flex;
-     justify-content: center;
-     align-items: center;
      margin:auto;
      width: 70%;
     }
@@ -99,19 +96,7 @@
         margin:auto;
     }
     
-    #kontakt{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #kontakt_email:hover {
-        color: #fffb05;
-    }
-    
-    #hoved_adresse:hover {
-        color: #fffb05;
-    }
-    
+
     #facebook:hover{
         transform:scale(1.2);
     }
@@ -127,6 +112,7 @@
     #bunnpris:hover{
         transform:scale(1.1);
     }
+
 }
 
 
@@ -134,7 +120,7 @@
     footer{
         background-color: #634d8d;
         color:white;
-        font-size: 22px;
+        font-size: 1em;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -148,8 +134,8 @@
         display: flex;
         flex-direction: column;
         align-self: center;
-        max-width: 40%;
-        max-height:40%;
+        max-width: 170px;
+        max-height:206px;
         margin:auto;
     }
     
@@ -166,8 +152,8 @@
         display: flex;
         flex-direction: column;
         align-self: center;
-        max-width: 150px;
-        max-height: 220px;
+        max-width: 100px;
+        max-height: 80px;
         margin:auto;
         margin-bottom: 10px;
     }
@@ -201,7 +187,7 @@
     #footer_map{
         display:flex;
         align-self:center;
-        order: 3;
+        order: 4;
     }
     
     #map{
@@ -218,24 +204,10 @@
     #footer_sponsor{
         display:flex;
         flex-direction: column;
-        order: 4;
+        order: 3;
         flex-grow: 1;
         margin:auto;
     }
-    
-    #kontakt{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #kontakt_email:hover {
-        color: #fffb05;
-    }
-    
-    #hoved_adresse:hover {
-        color: #fffb05;
-    }
-    
     #facebook:hover{
         transform:scale(1.2);
     }
