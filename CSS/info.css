@@ -31,20 +31,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
 }
 .page{
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../IMG/background-info-main-guide/info-bg1.jpg);
+    background-image:url(../IMG/background-info-main-guide/info-bg1.jpg);
+    
 }
 
 
 .pageTwo{
-    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(../IMG/background-info-main-guide/info-bg2.jpg);
+    background-image:url(../IMG/background-info-main-guide/info-bg2.jpg);
 }
 
 
 .pageThree{
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../IMG/background-info-main-guide/info-bg3.png);
+    background-image:url(../IMG/background-info-main-guide/info-bg3.png);
 }
 
 .content, .contentTwo, .contentThree{
@@ -56,6 +58,22 @@
     margin:15vh 0 0 0;
     color: #fff;
     text-align: center;
+
+    width: fit-content;
+    width: -moz-fit-content;
+
+    background-color: rgba(148,129,184,0.9);
+
+    border: 2px solid  white;
+    border-radius: 10px;
+    padding: 0 5px 0 5px;
+    
+    margin: 0 5vw 0 5vw;
+    
+}
+.content{
+    margin-bottom: 5vh;
+    
 }
 
 .content h1, .contentTwo h1, .contentThree h1{
@@ -65,12 +83,7 @@
     margin-right: 15%;
     margin-left: 15%;
     font-weight: 100;
-    line-height: 25px;
     font-size: medium;
-}
-
-.button-container{
-    transform: translateY(-50%);
 }
 
 button{
@@ -81,29 +94,19 @@ button{
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #fff;
-    background: transparent;
     color: #fff;
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    background: rgba(99, 77, 141, 1);
 }
 
-span{
-    background: #9481b8;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
+button:hover {
+    transform: scale(1.2);
 }
-
-button:hover span {
-    width: 100%;
+button:active {
+    transform: scale(1.1);
 }
-
 @media screen and (max-width: 700px) {
     .content, .contentTwo, .contentThree{
         font-size: 5vw;

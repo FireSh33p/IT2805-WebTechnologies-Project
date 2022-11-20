@@ -17,7 +17,10 @@
 #Verv-wrapper{
     max-width:calc(var(--width-container) +10px);
     padding-top:calc(var(--spacing-xxl)*2.5);
-    background-color: #cccccc;
+    background-image: url("../IMG/bg-verv/bg-verv.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .cards{
@@ -152,9 +155,9 @@
     margin: auto;
     font-size: 1rem;
     color: white;
-    background-color: var(--purple-color);
+    background-color: rgba(148,129,184,0.9);
     border-radius: var(--spacing-l);
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
