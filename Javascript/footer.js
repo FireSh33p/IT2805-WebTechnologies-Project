@@ -260,7 +260,7 @@ class Footer extends HTMLElement {
             <div id="socials">
                 <figure>
                     <a href="https://www.facebook.com/padlingen/">
-                        <img src="../IMG/logoer/facebook-logo.png"  alt="Facebook" id="facebook" class="social_media">
+                        <img src="../IMG/logoer/Facebook-logo.png"  alt="Facebook" id="facebook" class="social_media">
                     </a>
                 </figure>
                 <figure>
