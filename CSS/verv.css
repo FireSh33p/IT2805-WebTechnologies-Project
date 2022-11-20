@@ -53,7 +53,7 @@
 }
 .card_background_closed{
     position: absolute;
-    background-color: rgb(65, 6, 65);
+    background-color: var(--purple-color);
     background-size: cover;
     background-position: center;
     border-radius: var(--spacing-l);
