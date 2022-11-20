@@ -26,10 +26,9 @@ class Footer extends HTMLElement {
             display: flex;
             flex-direction: row;
             align-self: center;
-            max-width: 170px;
-            max-height:206px;
-            margin:auto;
-            margin-right:70px;
+            max-width: 400px;
+            max-height:100px; 
+            margin-top: 70px;
         }
         
         #bunnpris{
@@ -142,8 +141,8 @@ class Footer extends HTMLElement {
             display: flex;
             flex-direction: column;
             align-self: center;
-            max-width: 170px;
-            max-height:206px;
+            max-width: 100%;
+            max-height:100px;
             margin:auto;
         }
         
@@ -242,15 +241,15 @@ class Footer extends HTMLElement {
       <footer>
         <section id="footer_informasjon">
             <div id="kontakt" class="footer_div">
-                <h4 id="kontakt_informasjon">
+                <h3 id="kontakt_informasjon">
                     Kontakt Informasjon:
-                </h4>
+                </h3>
                 <p id="kontakt_email">
                     Badcom@gmail.com
                 </p>
-                <h4 id="adresse">
+                <h3 id="adresse">
                     Besøksadresse:
-                </h4>
+                </h3>
                 <p id="hoved_adresse">
                     Gamle Kjemi, Etasje K, Rom 018
                 </p>
@@ -281,7 +280,7 @@ class Footer extends HTMLElement {
             <div id="sponsor1" class="footer_div">
                 <figure >
                     <a href="https://www.tekna.no/en/">
-                        <img src="../IMG/logoer/tekna_logo.png" alt="Tekna Logo" id="tekna">
+                        <img src="../IMG/logoer/tekna-logo-2020.png" alt="Tekna Logo" id="tekna">
                     </a>
                 </figure>
             </div>

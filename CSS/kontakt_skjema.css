@@ -1,3 +1,15 @@
+.form-sec{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../IMG/bg-kontakt/bg-kontakt.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 form{
     display: flex;
     justify-content: center;
@@ -6,8 +18,13 @@ form{
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 20px;
-    margin-top:15vw;
+    margin-top:15vh;
     margin-bottom: 5vw;
+    background-color: rgba(148,129,184,0.9);
+    border: 2px solid  white;
+    border-radius: 10px;
+    width: 75vw;
+    color:white;
 }
 
 #informasjon{
@@ -62,17 +79,27 @@ form{
 }
 
 #send_inn{
-    background-color:#634d8d;
-    color:white;
-    font-size: large;
-    border-style:solid;
-    border-width: 2px;
-    border-color:black;
-    padding:2%;
+
+    width: fit-content;
+    padding: 15px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: rgba(99, 77, 141, 1);
+    text-decoration: none;
 }
 
 #send_inn:hover{
-    transform: scale(1.05,1.05);
+    transform: scale(1.2);
+}
+#send_inn:active{
+    transform: scale(1.1);
 }
 
 @media screen and (max-width:729px) {
@@ -81,9 +108,14 @@ form{
         justify-content: center;
         align-items: center;
         align-content: center;
+        flex-direction: row;
         flex-wrap: wrap;
-        flex-direction: column;
-        font-size: 20px;
+        font-size: 1.2em;
+        margin-top:15vh;
+        margin-bottom: 5vw;
+        background: rgba(99, 77, 141, 1);
+        width: 75vw;
+        color:white;
         
     }
     
@@ -126,7 +158,8 @@ form{
         border-style:solid;
         border-width: 2px;
         border-color:black;
-        width:75vw;
+        width:70vw;
+        height: 25vh;
     }
     
     #button{
@@ -138,17 +171,26 @@ form{
         flex-direction: column;
     }
     #send_inn{
-        background-color:#634d8d;
-        color:white;
-        font-size: large;
-        border-style:solid;
-        border-width: 2px;
-        border-color:black;
-        padding:2%;
+        width: fit-content;
+        padding: 15px;
+        text-align: center;
+        margin: 15px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #fff;
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        background: rgba(99, 77, 141, 1);
+        text-decoration: none;
         
     }
     
     #send_inn:hover{
-        transform: scale(1.05,1.05);
+        transform: scale(1.2);
+    }
+    #send_inn:active{
+        transform: scale(1.1);
     }
 }
