@@ -64,7 +64,7 @@
     border-radius: 10px;
     padding: 0 5px 0 5px;
     
-    margin: 15vh 5vw 4vh 5vw;
+    margin: 15vh 5vw 2.5vh 5vw;
 
     z-index: 2;
     text-align: center;
@@ -75,4 +75,3 @@
 .main-content2{
     font-size: 1rem;
 }
-
