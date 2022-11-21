@@ -4,14 +4,14 @@ body{
     padding:0;
     overflow-x: hidden;
     background-color: #634d8d;
-    line-height: 25px;
+    line-height: 1.2em;
     font-weight: 600;
 }
 .a-button{
     width: fit-content;
-    padding: 15px;
+    padding:0.75em;
     text-align: center;
-    margin: 15px;
+    margin: 0.75em;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #fff;

@@ -10,9 +10,9 @@
     width: 100vw;
     scroll-snap-align: center;
     scroll-snap-stop: always;
-    /* scroll-behavior: auto; */
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .home-main h1{
@@ -20,8 +20,7 @@
     margin: 0.5em;
 }
 .home-main p{
-    font-weight: 600;
-    padding:0.5em;
+    padding:0.2em;
     margin:0;
 }
 
@@ -30,12 +29,11 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color:whitesmoke;
+    background-color:white;
 
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-
+    justify-content:center;
 }
 .home-main .frame1{
     background-image: url("../IMG/background-info-main-guide/main-bg1.jpg");
@@ -66,21 +64,16 @@
     border-radius: 10px;
     padding: 0 5px 0 5px;
     
-    margin: 0 5vw 0 5vw;
-    
-    font-weight: bolder;
+    margin: 15vh 5vw 4vh 5vw;
+
     z-index: 2;
     text-align: center;
 }
 
 .main-content1{
-    margin-top: 100px;
-}
-.main-content1{
     font-size: 1.5rem;
 }
 .main-content2{
-    
     font-size: 1rem;
 }
 
