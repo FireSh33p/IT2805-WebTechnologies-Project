@@ -54,9 +54,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    /* align-content: center; */
     margin:15vh 0 0 0;
-    color: #fff;
+    color: white;
     text-align: center;
 
     width: fit-content;
@@ -72,25 +72,18 @@
     
 }
 .content{
-    margin-bottom: 5vh;
-    
+    margin-bottom: 5vh;    
 }
 
-.content h1, .contentTwo h1, .contentThree h1{
-    font-size: xx-large;
-}
 .content p, .contentTwo p, .contentThree p{  
-    margin-right: 15%;
-    margin-left: 15%;
-    font-weight: 100;
-    font-size: medium;
+    margin:0.3em;
 }
 
 button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
-    margin:15vh 0 0 0;
+    margin:4vh 0 0 0;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #fff;

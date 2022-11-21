@@ -5,6 +5,7 @@ body{
     overflow-x: hidden;
     background-color: #634d8d;
     line-height: 25px;
+    font-weight: 600;
 }
 .a-button{
     width: fit-content;
